@@ -22669,7 +22669,7 @@ IL_017a:
 		WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073 L_61 = L_60;
 		RuntimeObject* L_62 = Box(WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073_il2cpp_TypeInfo_var, &L_61);
 		NullCheck(L_59);
-		VirtualActionInvoker1< RuntimeObject* >::Invoke(14, L_59, L_62);
+		VirtualActionInvoker1< RuntimeObject* >::Invoke(16, L_59, L_62);
 		return;
 	}
 }
@@ -22863,7 +22863,7 @@ IL_0187:
 		WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073 L_60 = L_59;
 		RuntimeObject* L_61 = Box(WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073_il2cpp_TypeInfo_var, &L_60);
 		NullCheck(L_58);
-		VirtualActionInvoker1< RuntimeObject* >::Invoke(14, L_58, L_61);
+		VirtualActionInvoker1< RuntimeObject* >::Invoke(16, L_58, L_61);
 		return;
 	}
 }
@@ -22880,7 +22880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericProcess_EnqueueWarning_m2127AB907
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		WarningWindowInfo_tC9B3CF67500431BE5B72FDD17CEA4B96DA09C7E3* L_5 = ___0_info;
 		NullCheck(L_4);
-		VirtualActionInvoker1< RuntimeObject* >::Invoke(14, L_4, L_5);
+		VirtualActionInvoker1< RuntimeObject* >::Invoke(16, L_4, L_5);
 		return;
 	}
 }
@@ -23001,7 +23001,7 @@ IL_0004:
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		NullCheck(L_3);
 		RuntimeObject* L_4;
-		L_4 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, L_3);
+		L_4 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(18, L_3);
 	}
 
 IL_000d:
@@ -23013,7 +23013,7 @@ IL_000d:
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		NullCheck(L_8);
 		int32_t L_9;
-		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_8);
+		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(10, L_8);
 		if ((((int32_t)1) < ((int32_t)L_9)))
 		{
 			goto IL_0004;
@@ -23065,7 +23065,7 @@ IL_0007:
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		NullCheck(L_3);
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_3);
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(10, L_3);
 		if ((((int32_t)0) >= ((int32_t)L_4)))
 		{
 			goto IL_004d;
@@ -23086,7 +23086,7 @@ IL_0007:
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		NullCheck(L_12);
 		RuntimeObject* L_13;
-		L_13 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, L_12);
+		L_13 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(18, L_12);
 		V_1 = ((WarningWindowInfo_tC9B3CF67500431BE5B72FDD17CEA4B96DA09C7E3*)CastclassClass((RuntimeObject*)L_13, WarningWindowInfo_tC9B3CF67500431BE5B72FDD17CEA4B96DA09C7E3_il2cpp_TypeInfo_var));
 		WarningWindowInfo_tC9B3CF67500431BE5B72FDD17CEA4B96DA09C7E3* L_14 = V_1;
 		if (!L_14)
@@ -23116,7 +23116,7 @@ IL_004d:
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
 		NullCheck(L_24);
 		int32_t L_25;
-		L_25 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_24);
+		L_25 = VirtualFuncInvoker0< int32_t >::Invoke(10, L_24);
 		if ((((int32_t)0) >= ((int32_t)L_25)))
 		{
 			goto IL_008b;
@@ -23137,7 +23137,7 @@ IL_004d:
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
 		NullCheck(L_33);
 		RuntimeObject* L_34;
-		L_34 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(16, L_33);
+		L_34 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(18, L_33);
 		V_2 = ((*(WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073*)((WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073*)(WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073*)UnBox(L_34, WindowInfo_tB6B65D429CB6D5F5D0760BA3EB1B916AE4AB6073_il2cpp_TypeInfo_var))));
 		GenericMonitorU5BU5D_t22801BBCC928D7EDAE5A4FD3103E987BFC33B81C* L_35 = __this->____monitors;
 		int32_t L_36 = V_0;
@@ -23220,7 +23220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericProcess_ForcedClose_m80B0A32169AD
 		int32_t L_2 = L_1;
 		Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		NullCheck(L_3);
-		VirtualActionInvoker0::Invoke(12, L_3);
+		VirtualActionInvoker0::Invoke(14, L_3);
 		GenericMonitorU5BU5D_t22801BBCC928D7EDAE5A4FD3103E987BFC33B81C* L_4 = __this->____monitors;
 		int32_t L_5 = ___0_monitorId;
 		NullCheck(L_4);

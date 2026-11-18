@@ -10357,7 +10357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Chunk_readString_mB2B8318EB3865B30D
 		int32_t L_6 = V_0;
 		NullCheck(L_2);
 		String_t* L_7;
-		L_7 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36, L_2, L_3, L_5, L_6);
+		L_7 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(38, L_2, L_3, L_5, L_6);
 		int32_t* L_8 = ___0_position;
 		int32_t* L_9 = ___0_position;
 		int32_t L_10 = *((int32_t*)L_9);
@@ -10749,7 +10749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Chunk_writeString_m773AD0E6F0EE0847DA
 		int32_t L_6 = ___0_position;
 		NullCheck(L_0);
 		int32_t L_7;
-		L_7 = VirtualFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t >::Invoke(19, L_0, L_1, 0, L_3, L_4, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_5, L_6)), 4)));
+		L_7 = VirtualFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t >::Invoke(20, L_0, L_1, 0, L_3, L_4, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_5, L_6)), 4)));
 		V_0 = L_7;
 		int32_t L_8 = ___0_position;
 		int32_t L_9 = V_0;

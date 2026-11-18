@@ -23717,7 +23717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Packet_init_mCD22B79193BB62191CD55AEB10E
 		L_5 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		NullCheck(L_5);
 		Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* L_6;
-		L_6 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(31, L_5);
+		L_6 = VirtualFuncInvoker0< Decoder_tE16E789E38B25DD304004FC630EA8B21000ECBBC* >::Invoke(33, L_5);
 		__this->____decoder = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____decoder), (void*)L_6);
 		int32_t L_7 = ((Packet_tFE8C6297997108F50A2A5EA1277CF5C254EB30B7_StaticFields*)il2cpp_codegen_static_fields_for(Packet_tFE8C6297997108F50A2A5EA1277CF5C254EB30B7_il2cpp_TypeInfo_var))->___c_encodeBufferSize;
@@ -24883,7 +24883,7 @@ IL_001d:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = __this->____serializeBuffer;
 		NullCheck(L_6);
 		int32_t L_11;
-		L_11 = VirtualFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t >::Invoke(19, L_6, L_7, 0, L_9, L_10, 0);
+		L_11 = VirtualFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t >::Invoke(20, L_6, L_7, 0, L_9, L_10, 0);
 		V_1 = L_11;
 		int32_t L_12 = ___1_pos;
 		if ((((int32_t)L_12) < ((int32_t)0)))

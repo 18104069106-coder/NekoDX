@@ -30934,7 +30934,7 @@ IL_0024:
 		StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_5 = ___0_sr;
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(13, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(14, L_5);
 		V_0 = L_6;
 	}
 
@@ -31459,7 +31459,7 @@ IL_0053:
 		StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_19 = ___0_sr;
 		NullCheck(L_19);
 		String_t* L_20;
-		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(13, L_19);
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(14, L_19);
 		String_t* L_21 = L_20;
 		V_0 = L_21;
 		if (L_21)

@@ -20,6 +20,7 @@ struct ConfigurationCollectionAttribute_t1D7DBAAB4908B6B8F26EA1C66106A67BDE94955
 struct ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E;
 struct ConfigurationPropertyCollection_t1DEB95D3283BB11A46B862E9D13710ED698B6C93;
 struct ConfigurationSection_t0BC609F0151B160A4FAB8226679B62AF22539C3E;
+struct ConfigurationValidatorBase_t9251C2E8E19D3C2FD11BA80E62458DB8D01B1DFE;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IgnoreSection_t43A7C33C0083D18639AA3CC3D75DD93FCF1C5D97;
 struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
@@ -31,6 +32,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD;
 
 IL2CPP_EXTERN_C RuntimeClass* PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElement_InitializeDefault_mA8696AA37753B0A94BB3AD25CE288AE88DF3DDA3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElement_IsModified_m03570122B9C781EE3AFC094BDDEA82F56BE2F850_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElement_ResetModified_m1CCB91632C7E81454C9E3A7F259AD72C06BED4B7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElement_Reset_mA1EA05A353D2606B81CF9B50BDBC9D5F9B6DF8AF_RuntimeMethod_var;
@@ -39,6 +41,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationSection_DeserializeSection_m33
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationSection_IsModified_m65E5503E4AB960336F17AF49AD94FDCA63EC7DD0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationSection_ResetModified_m3A4EF275904DF31400B33FD9C4F22537D2922844_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationSection_SerializeSection_m4526B82EBA81F4B2A049AA668905A27C58A07540_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationValidatorBase_CanValidate_m5A3F023F20881B6CC24D27E591960D457894F812_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IgnoreSection_DeserializeSection_m622C6FAE1160DCC952A4E36FC9E2DCB9DCC34CEC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IgnoreSection_IsModified_mB1D57799DA9AE024B99CB05766D5497A3DD8F19F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IgnoreSection_ResetModified_m13E416D3841F85E3B334CF9EB517FFBE9F7E224C_RuntimeMethod_var;
@@ -72,6 +75,9 @@ struct ConfigurationPropertyCollection_t1DEB95D3283BB11A46B862E9D13710ED698B6C93
 {
 };
 struct ConfigurationSectionGroup_tE7948C2D31B193F4BA8828947ED3094B952C7863  : public RuntimeObject
+{
+};
+struct ConfigurationValidatorBase_t9251C2E8E19D3C2FD11BA80E62458DB8D01B1DFE  : public RuntimeObject
 {
 };
 struct MemberInfo_t  : public RuntimeObject
@@ -279,6 +285,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfigurationPropertyCollection_t1DEB95D3283B
 		return (ConfigurationPropertyCollection_t1DEB95D3283BB11A46B862E9D13710ED698B6C93*)NULL;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationElement_InitializeDefault_mA8696AA37753B0A94BB3AD25CE288AE88DF3DDA3 (ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfigurationElement_InitializeDefault_mA8696AA37753B0A94BB3AD25CE288AE88DF3DDA3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_raise_profile_exception(ConfigurationElement_InitializeDefault_mA8696AA37753B0A94BB3AD25CE288AE88DF3DDA3_RuntimeMethod_var);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfigurationElement_IsModified_m03570122B9C781EE3AFC094BDDEA82F56BE2F850 (ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -392,6 +411,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConfigurationSection_SerializeSecti
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfigurationValidatorBase_CanValidate_m5A3F023F20881B6CC24D27E591960D457894F812 (ConfigurationValidatorBase_t9251C2E8E19D3C2FD11BA80E62458DB8D01B1DFE* __this, Type_t* ___0_type, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfigurationValidatorBase_CanValidate_m5A3F023F20881B6CC24D27E591960D457894F812_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		il2cpp_codegen_raise_profile_exception(ConfigurationValidatorBase_CanValidate_m5A3F023F20881B6CC24D27E591960D457894F812_RuntimeMethod_var);
+		il2cpp_codegen_initobj((&V_0), sizeof(bool));
+		bool L_0 = V_0;
+		return L_0;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

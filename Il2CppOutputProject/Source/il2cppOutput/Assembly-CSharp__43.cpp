@@ -9287,7 +9287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicScore_SetScoreData_mD4493553F688563
 		L_2 = Convert_FromBase64String_m267327B074B41D93C9622D142B95CFAA4ACCCA9C(L_1, NULL);
 		NullCheck(L_0);
 		String_t* L_3;
-		L_3 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(35, L_0, L_2);
+		L_3 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(37, L_0, L_2);
 		MusicScore_set_ScoreData_m29143A65B65348DB719298015C0FC3C43A53CFA7_inline(__this, L_3, NULL);
 		String_t* L_4;
 		L_4 = MusicScore_get_ScoreData_mB1199B9915B8FAD36EBB4CE19AB1497D605EADDC_inline(__this, NULL);
@@ -28660,7 +28660,7 @@ IL_001e_2:
 					StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_8 = V_1;
 					NullCheck(L_8);
 					String_t* L_9;
-					L_9 = VirtualFuncInvoker0< String_t* >::Invoke(13, L_8);
+					L_9 = VirtualFuncInvoker0< String_t* >::Invoke(14, L_8);
 					String_t* L_10 = L_9;
 					V_2 = L_10;
 					if (L_10)
