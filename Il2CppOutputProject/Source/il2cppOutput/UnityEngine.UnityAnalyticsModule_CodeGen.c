@@ -1,0 +1,101 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void RemoteSettings_RemoteSettingsUpdated_m6202CCC0AF33D44838BB46977D075E54FD5EC069 (void);
+extern void RemoteSettings_RemoteSettingsBeforeFetchFromServer_m677DED4CFA8C9E498227A3E939242974DF8FA35C (void);
+extern void RemoteSettings_RemoteSettingsUpdateCompleted_m56713308E00B18BF0E5FADEC93D67A70F7E5FD86 (void);
+extern void RemoteSettings_ForceUpdate_m05A437FF0CB7552AF872FF999106AD795F7A9BEB (void);
+extern void UpdatedEventHandler__ctor_mB914409481F8FDC738B4EDB1DBB4883F743F863A (void);
+extern void UpdatedEventHandler_Invoke_m4D496F648FD908A8537A35C4A94CBB44294D6D50 (void);
+extern void RemoteConfigSettings_RemoteConfigSettingsUpdated_mA71E7C6CDAF5D349BF0B4880A4D54DF2365EB948 (void);
+extern void AnalyticsSessionInfo_CallSessionStateChanged_m6C3C7DD13064E37D7C3AE9411355BCEF77C4664B (void);
+extern void AnalyticsSessionInfo_get_sessionId_m2022F1F0127FBBB17BC8B77CA5FCBEFF3FA2A4CA (void);
+extern void AnalyticsSessionInfo_get_userId_m4CD30B7A030EBE80357D1A5FF3836E77E0CFC196 (void);
+extern void AnalyticsSessionInfo_CallIdentityTokenChanged_m1AD21A1840BCB9CB222455F609DBBF7B7B380911 (void);
+extern void SessionStateChanged__ctor_m8E04BB6766439BA455F9C808171BD791230496D8 (void);
+extern void SessionStateChanged_Invoke_mB9195B30A226CB3E53E470C24FD31E039E5BB4F5 (void);
+extern void IdentityTokenChanged__ctor_m1970F8BEEDAA84A8FC5ABB973C0DB62FA2AA8312 (void);
+extern void IdentityTokenChanged_Invoke_m22D3DA825F0D6E701D050EFA3D35E84DFAC7F8D9 (void);
+extern void Analytics_IsInitialized_mBC7670704DE959791C8DF859A7C66D5DD5168F12 (void);
+extern void Analytics_set_enabledInternal_m68F6A31D3874B593BDB1E7842354CFBFE5B2FA0C (void);
+extern void Analytics_set_deviceStatsEnabledInternal_mA64D45012F4E8F73C4E1B5A63D3AB7EBCD7C77CC (void);
+extern void Analytics_set_deviceStatsEnabled_mBD793306FA86CBA16BF930B3435E1BC059402144 (void);
+extern void Analytics_set_enabled_mF433189C114B6560C5DD8E7D4B6B3B06B7F5679C (void);
+static Il2CppMethodPointer s_methodPointers[20] = 
+{
+	RemoteSettings_RemoteSettingsUpdated_m6202CCC0AF33D44838BB46977D075E54FD5EC069,
+	RemoteSettings_RemoteSettingsBeforeFetchFromServer_m677DED4CFA8C9E498227A3E939242974DF8FA35C,
+	RemoteSettings_RemoteSettingsUpdateCompleted_m56713308E00B18BF0E5FADEC93D67A70F7E5FD86,
+	RemoteSettings_ForceUpdate_m05A437FF0CB7552AF872FF999106AD795F7A9BEB,
+	UpdatedEventHandler__ctor_mB914409481F8FDC738B4EDB1DBB4883F743F863A,
+	UpdatedEventHandler_Invoke_m4D496F648FD908A8537A35C4A94CBB44294D6D50,
+	RemoteConfigSettings_RemoteConfigSettingsUpdated_mA71E7C6CDAF5D349BF0B4880A4D54DF2365EB948,
+	AnalyticsSessionInfo_CallSessionStateChanged_m6C3C7DD13064E37D7C3AE9411355BCEF77C4664B,
+	AnalyticsSessionInfo_get_sessionId_m2022F1F0127FBBB17BC8B77CA5FCBEFF3FA2A4CA,
+	AnalyticsSessionInfo_get_userId_m4CD30B7A030EBE80357D1A5FF3836E77E0CFC196,
+	AnalyticsSessionInfo_CallIdentityTokenChanged_m1AD21A1840BCB9CB222455F609DBBF7B7B380911,
+	SessionStateChanged__ctor_m8E04BB6766439BA455F9C808171BD791230496D8,
+	SessionStateChanged_Invoke_mB9195B30A226CB3E53E470C24FD31E039E5BB4F5,
+	IdentityTokenChanged__ctor_m1970F8BEEDAA84A8FC5ABB973C0DB62FA2AA8312,
+	IdentityTokenChanged_Invoke_m22D3DA825F0D6E701D050EFA3D35E84DFAC7F8D9,
+	Analytics_IsInitialized_mBC7670704DE959791C8DF859A7C66D5DD5168F12,
+	Analytics_set_enabledInternal_m68F6A31D3874B593BDB1E7842354CFBFE5B2FA0C,
+	Analytics_set_deviceStatsEnabledInternal_mA64D45012F4E8F73C4E1B5A63D3AB7EBCD7C77CC,
+	Analytics_set_deviceStatsEnabled_mBD793306FA86CBA16BF930B3435E1BC059402144,
+	Analytics_set_enabled_mF433189C114B6560C5DD8E7D4B6B3B06B7F5679C,
+};
+static const int32_t s_InvokerIndices[20] = 
+{
+	11061,
+	11242,
+	9662,
+	11242,
+	3458,
+	7908,
+	10404,
+	9066,
+	11199,
+	11206,
+	11069,
+	3458,
+	1285,
+	3458,
+	6445,
+	11182,
+	11061,
+	11061,
+	11061,
+	11061,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_UnityAnalyticsModule_CodeGenModule = 
+{
+	"UnityEngine.UnityAnalyticsModule.dll",
+	20,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
