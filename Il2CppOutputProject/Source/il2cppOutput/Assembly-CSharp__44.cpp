@@ -851,6 +851,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Mode_2_set_mB3120645C23026D85BE853A1BFEB92C
 IL2CPP_EXTERN_C const RuntimeMethod* Mode_2_update_m99899288088F279B81D4449BE8E15BECEDAC3A9A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* OptionDataManager_CreateDummyFileTable_TisString_t_m185C41DBDC79833FCCAA457497EC01152CA1DBB1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_GetEnumerator_m4C3802B4F766A1B5DA5B907E842D14526BC3EF54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReadonlySortedDictionary_2_ContainsKey_mB24CD6B842954675721683954005199186817E5A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadonlySortedDictionary_2__ctor_mEA9307E5F9A2073C4B706452739709AA5C53F35E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SingletonStateMachine_2_get_Instance_mBA976BF254A4891E59098FBA9CF265E7140DF6B0_RuntimeMethod_var;
@@ -4638,6 +4639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortedDictionary_2_set_Item_mC150EF9AEC1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mD3349DDEC1B58EEE31195019F0D0074C2C51DE16_gshared (Enumerator_tA407C0A183DFDFFCEB3235933A1EDE3F0E9C34DA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadonlySortedDictionary_2__ctor_m6E542D1A5114939F0EA2C149644271476CB16655_gshared (ReadonlySortedDictionary_2_t0C7BB0D96B7A596B2FFFCF46F4888678393ACAEB* __this, SortedDictionary_2_t988B01B17248124FE8F06E2783DC4D609EF0DE2E* ___0_list, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadonlySortedDictionary_2_get_Item_m31ACB2869B17BE4ED61F5F87E9AE3DF2F8E638FD_gshared (ReadonlySortedDictionary_2_t0C7BB0D96B7A596B2FFFCF46F4888678393ACAEB* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReadonlySortedDictionary_2_ContainsKey_m00B1C56F478BBCB4E4BD68518AAA1519CFC1A8A1_gshared (ReadonlySortedDictionary_2_t0C7BB0D96B7A596B2FFFCF46F4888678393ACAEB* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m487A0501D6F875A04F7D8F93F1CB3C813994AA64_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadonlySortedDictionary_2_t3FA9B1B4F12659F9975BC27C566CC789931ADF21* OptionDataManager_CreateDummyFileTable_TisRuntimeObject_m70ADA7DE18822DEC730B968531A5DBA19589BA3F_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedList_1__ctor_m2732A2EC5597469086D48C79A12B3563DEA501C5_gshared (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* __this, const RuntimeMethod* method) ;
@@ -4970,6 +4972,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OptionDataManager_CheckAssetBundleData_m
 inline String_t* ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E (ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
 	return ((  String_t* (*) (ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7*, String_t*, const RuntimeMethod*))ReadonlySortedDictionary_2_get_Item_m31ACB2869B17BE4ED61F5F87E9AE3DF2F8E638FD_gshared)(__this, ___0_key, method);
+}
+inline bool ReadonlySortedDictionary_2_ContainsKey_mB24CD6B842954675721683954005199186817E5A (ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7*, String_t*, const RuntimeMethod*))ReadonlySortedDictionary_2_ContainsKey_m00B1C56F478BBCB4E4BD68518AAA1519CFC1A8A1_gshared)(__this, ___0_key, method);
 }
 inline RuntimeObject* ReadOnlyCollection_1_GetEnumerator_m4C3802B4F766A1B5DA5B907E842D14526BC3EF54 (ReadOnlyCollection_1_tE73B24B2BA1845A2CD38DB212B20AC1B5258C14C* __this, const RuntimeMethod* method)
 {
@@ -8955,6 +8961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetMovieDataPath_
 	}
 	String_t* V_0 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	String_t* G_B4_0 = NULL;
 	try
 	{
 		ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_0 = __this->____movies;
@@ -8963,7 +8970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetMovieDataPath_
 		String_t* L_2;
 		L_2 = ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E(L_0, L_1, ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E_RuntimeMethod_var);
 		V_0 = L_2;
-		goto IL_0023;
+		goto IL_003c;
 	}
 	catch(Il2CppExceptionWrapper& e)
 	{
@@ -8977,20 +8984,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetMovieDataPath_
 
 CATCH_000f:
 	{
-		RuntimeObject* L_3 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_4 = __this->____movies;
-		NullCheck(L_4);
-		String_t* L_5;
-		L_5 = ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral17718E71159B2A463A10CD2BCAE046100EF2ADF2)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E_RuntimeMethod_var)));
-		V_0 = L_5;
-		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-		goto IL_0023;
+		{
+			RuntimeObject* L_3 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+			ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_4 = __this->____movies;
+			NullCheck(L_4);
+			bool L_5;
+			L_5 = ReadonlySortedDictionary_2_ContainsKey_mB24CD6B842954675721683954005199186817E5A(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral17718E71159B2A463A10CD2BCAE046100EF2ADF2)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReadonlySortedDictionary_2_ContainsKey_mB24CD6B842954675721683954005199186817E5A_RuntimeMethod_var)));
+			if (L_5)
+			{
+				goto IL_0029;
+			}
+		}
+		{
+			G_B4_0 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709));
+			goto IL_0039;
+		}
+
+IL_0029:
+		{
+			ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_6 = __this->____movies;
+			NullCheck(L_6);
+			String_t* L_7;
+			L_7 = ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral17718E71159B2A463A10CD2BCAE046100EF2ADF2)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E_RuntimeMethod_var)));
+			G_B4_0 = L_7;
+		}
+
+IL_0039:
+		{
+			V_0 = G_B4_0;
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_003c;
+		}
 	}
 
-IL_0023:
+IL_003c:
 	{
-		String_t* L_6 = V_0;
-		return L_6;
+		String_t* L_8 = V_0;
+		return L_8;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetSoundDataPath_m0E70E9642443204B18B6AF2533D8F353C5CBF1DA (OptionDataManager_tE56241CFDF74C21940FA622ADFD4E7774D7932F8* __this, String_t* ___0_id, const RuntimeMethod* method) 
@@ -9003,6 +9033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetSoundDataPath_
 	}
 	String_t* V_0 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	String_t* G_B4_0 = NULL;
 	try
 	{
 		ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_0 = __this->____sounds;
@@ -9011,7 +9042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetSoundDataPath_
 		String_t* L_2;
 		L_2 = ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E(L_0, L_1, ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E_RuntimeMethod_var);
 		V_0 = L_2;
-		goto IL_0023;
+		goto IL_003c;
 	}
 	catch(Il2CppExceptionWrapper& e)
 	{
@@ -9025,20 +9056,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetSoundDataPath_
 
 CATCH_000f:
 	{
-		RuntimeObject* L_3 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_4 = __this->____sounds;
-		NullCheck(L_4);
-		String_t* L_5;
-		L_5 = ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA95123CFA299DA7FCBA4E34746739A9BBA1E5127)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E_RuntimeMethod_var)));
-		V_0 = L_5;
-		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-		goto IL_0023;
+		{
+			RuntimeObject* L_3 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+			ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_4 = __this->____sounds;
+			NullCheck(L_4);
+			bool L_5;
+			L_5 = ReadonlySortedDictionary_2_ContainsKey_mB24CD6B842954675721683954005199186817E5A(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA95123CFA299DA7FCBA4E34746739A9BBA1E5127)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReadonlySortedDictionary_2_ContainsKey_mB24CD6B842954675721683954005199186817E5A_RuntimeMethod_var)));
+			if (L_5)
+			{
+				goto IL_0029;
+			}
+		}
+		{
+			G_B4_0 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709));
+			goto IL_0039;
+		}
+
+IL_0029:
+		{
+			ReadonlySortedDictionary_2_t97010522C83C3B11C81CF60D338DEF04B7404AA7* L_6 = __this->____sounds;
+			NullCheck(L_6);
+			String_t* L_7;
+			L_7 = ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA95123CFA299DA7FCBA4E34746739A9BBA1E5127)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReadonlySortedDictionary_2_get_Item_m381DCE4896A5408148213491500ED898C9AAF70E_RuntimeMethod_var)));
+			G_B4_0 = L_7;
+		}
+
+IL_0039:
+		{
+			V_0 = G_B4_0;
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_003c;
+		}
 	}
 
-IL_0023:
+IL_003c:
 	{
-		String_t* L_6 = V_0;
-		return L_6;
+		String_t* L_8 = V_0;
+		return L_8;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionDataManager_GetAssetBundlePath_m62914EDDA68B41C44D4823CD9B6BFE8A7C621FBB (OptionDataManager_tE56241CFDF74C21940FA622ADFD4E7774D7932F8* __this, String_t* ___0_id, const RuntimeMethod* method) 

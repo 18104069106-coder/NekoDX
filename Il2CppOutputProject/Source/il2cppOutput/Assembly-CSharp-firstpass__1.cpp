@@ -3481,6 +3481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsInstaller_criFsInstaller_GetStat
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsInstaller_criFsInstaller_GetProgress_mE1D6FF1943A634A29AD6A36749065344BF21CB51 (intptr_t ___0_installer, float* ___1_progress, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsInstaller_criFsInstaller_ExecuteMain_m18E5904AB992353A4C52B4F2FCD57FAFC7953321 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_m931A344F16D4C65EFB0B492EB07C7A82AF0B9FA1 (int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriFsInstaller_Stop_m1775C8E1E3FE5BE1B1191B4513638F8326FEA74F (CriFsInstaller_t6CC2E289C3AB3C7A4F17BD7A92FD19AAFB43B578* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriFsInstallRequest__ctor_mF6BA4D917A0E0911E2CDECC1845F4EF9B7B695A2 (CriFsInstallRequest_t8D17C14388B3DF5D41E02F2F99BB4BD2ECFAA3F2* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CriFsInstallRequest_set_sourcePath_m062ED3F5EA4112B313B1BBB21D70EF76DD0406BD_inline (CriFsInstallRequest_t8D17C14388B3DF5D41E02F2F99BB4BD2ECFAA3F2* __this, String_t* ___0_value, const RuntimeMethod* method) ;
@@ -3511,7 +3512,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsLoader_criFsLoader_DecompressDat
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsLoader_criFsLoader_Stop_mBB535E7552433A37AF6024B7563C360663FEBF48 (intptr_t ___0_loader, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsLoader_criFsLoader_GetStatus_m94656A6A7250579C689533F3ACA0269FF505866A (intptr_t ___0_loader, int32_t* ___1_status, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsLoader_criFsLoader_SetReadUnitSize_mB3A58C7706ED86631A34BE9321B9AC80BF389669 (intptr_t ___0_loader, int64_t ___1_unit_size, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_m931A344F16D4C65EFB0B492EB07C7A82AF0B9FA1 (int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CriFsLoadFileRequest_set_path_m3E4AB59A54AF9DF35382AE561EA669DC4A980D31_inline (CriFsLoadFileRequest_tEFAF9B1BDC19B76E75A6C1F365F024FE4D636739* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriFsBinder__ctor_mA882A1529236CC064BA6886E20150AB3EF626AA6 (CriFsBinder_tE30DBFE90E0F60D62C14E7539BE6E62279B4F0AA* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CriFsBinder_GetFileSize_m68E9879594DC696BFBA5E5A57E876FB6BA5E24EA (CriFsBinder_tE30DBFE90E0F60D62C14E7539BE6E62279B4F0AA* __this, String_t* ___0_path, const RuntimeMethod* method) ;
@@ -3533,6 +3533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriFsPlugin_CRIWAREB2EB8B5F_mF8B036C37EF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriFsServer_DestroyInstance_m4FA65CB4340F4E90C1881854B267FA74A6C11A17 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriDisposableObjectManager_CallOnModuleFinalization_mF8CDCA1150244C4A6CA69A64F2FB1B843D2B0EA1 (int32_t ___0_type, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriFsPlugin_CRIWARE1692E4D8_m68AC2D5AB254AC4E1601628F3F10EBA7A050FE7F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriFsPlugin_get_isInitialized_m16B6918B1E0B2E90A447DE8105D6D56DA75640F2 (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CriFsRequest_get_isDisposed_mDC25FFF2F1C59CD0CD619544624DB4E6FAA5AE2E_inline (CriFsRequest_tA1F1FB25A62CC2F09787C83D7D050089B7C7A6DB* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CriFsRequest_set_isDisposed_m80F4E05D76E99749A53D3B8FE9895D2F1D835567_inline (CriFsRequest_tA1F1FB25A62CC2F09787C83D7D050089B7C7A6DB* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CriFsRequest_CheckDone_m77FBC6F187B243BEFF173E49DCD78C33ECC81311 (CriFsRequest_tA1F1FB25A62CC2F09787C83D7D050089B7C7A6DB* __this, const RuntimeMethod* method) ;
@@ -3778,6 +3779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RendererResourceFactory_DisposeAllFactor
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_FinalizeLibrary_mF160B78954922CB84C669E6E8A3EA52A252EFFF6 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriManaPlugin_CRIWARE1A8362EB_m47257FDD5CB7EFA7585BC9C323E3CC651C0425CE (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriManaPlugin_CRIWARE1AFDC46B_mE8C21D4B60B64A6ECC028ACA2B5EF39F496507F4 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriManaPlugin_get_isInitialized_m10E828DFAA61BBD96051DDA4A0D5185DF06040E9 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CriManaVp9_criWareUnity_GetAllocateFunc_m2E7489F0BFB5811566F840D248E3228EFC541E35 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CriManaVp9_criWareUnity_GetDeallocateFunc_m78B2475984495A6F85E77B080F49003E82B6440C (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CriManaVp9_criManaUnity_GetAllocatorManager_m357675769202C1CF109C22998066196C408A0490 (const RuntimeMethod* method) ;
@@ -5340,7 +5342,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsInstaller_criFsInstaller_Create_
 {
 	{
 		intptr_t* L_0 = ___0_installer;
-		il2cpp_codegen_initobj(L_0, sizeof(intptr_t));
+		intptr_t L_1;
+		L_1 = IntPtr_op_Explicit_m931A344F16D4C65EFB0B492EB07C7A82AF0B9FA1(1, NULL);
+		*((intptr_t*)L_0) = (intptr_t)L_1;
 		return 0;
 	}
 }
@@ -7097,8 +7101,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriFsPlugin_CRIWARE5607FE7A_mD2BFD00DAAC
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriFsPlugin_CRIWAREB2EB8B5F_mF8B036C37EF930441D6A4F67BD59976F1A7FE349 (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		return (bool)0;
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CriFsPlugin_t4C2FF499FBB7169656D91249C77F9B041222AB23_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CriFsPlugin_t4C2FF499FBB7169656D91249C77F9B041222AB23_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = CriFsPlugin_get_isInitialized_m16B6918B1E0B2E90A447DE8105D6D56DA75640F2(NULL);
+		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriFsPlugin_CRIWARE1692E4D8_m68AC2D5AB254AC4E1601628F3F10EBA7A050FE7F (const RuntimeMethod* method) 
@@ -8866,7 +8879,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriFsWebInstaller_criFsWebInstaller_C
 {
 	{
 		intptr_t* L_0 = ___0_installer;
-		il2cpp_codegen_initobj(L_0, sizeof(intptr_t));
+		intptr_t L_1;
+		L_1 = IntPtr_op_Explicit_m931A344F16D4C65EFB0B492EB07C7A82AF0B9FA1(1, NULL);
+		*((intptr_t*)L_0) = (intptr_t)L_1;
 		return 0;
 	}
 }
@@ -11852,8 +11867,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriManaPlugin_CRIWAREA52DC80F_mAA13F6F37
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriManaPlugin_CRIWAREBB847967_m0A911BECA1FBB847F62777CFEF58BD4F6B7DD508 (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		return (bool)0;
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CriManaPlugin_tF0D6EEC4E6B24AC7B974A324535C78685CFB4F2D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CriManaPlugin_tF0D6EEC4E6B24AC7B974A324535C78685CFB4F2D_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = CriManaPlugin_get_isInitialized_m10E828DFAA61BBD96051DDA4A0D5185DF06040E9(NULL);
+		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriManaPlugin_CRIWARE3466830B_m9C21F6B6ACAC8DDF94BF333F0E808E66EADC7004 (const RuntimeMethod* method) 

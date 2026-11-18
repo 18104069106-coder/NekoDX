@@ -22072,7 +22072,9 @@ IL_0042:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CriAtomExOutputAnalyzer_criAtomExOutputAnalyzer_Create_mBD12E06AA2E52C654A8F9A2AED6DE64BC5ACB460 (Config_t0A676EC9F8261A40F3B8F6104A18B766EB8E2A0A* ___0_config, const RuntimeMethod* method) 
 {
 	{
-		return ((intptr_t)0);
+		intptr_t L_0;
+		L_0 = IntPtr_op_Explicit_m931A344F16D4C65EFB0B492EB07C7A82AF0B9FA1(1, NULL);
+		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExOutputAnalyzer_criAtomExOutputAnalyzer_Destroy_m5E6D440596A86702BE83338CEC16F74E432BB062 (intptr_t ___0_analyzer, const RuntimeMethod* method) 
@@ -28023,8 +28025,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREA4B00AC3_m086CC94F5
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomPlugin_CRIWARE3F266E57_m2BA294CF992430A4B3E00FD0CAC4F9E552CF51C5 (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		return (bool)0;
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CriAtomPlugin_t404AF862506FD17AFE9A262233508CB66A3D70E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CriAtomPlugin_t404AF862506FD17AFE9A262233508CB66A3D70E6_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = CriAtomPlugin_get_isInitialized_m41A6A0ADD5A4E6D107268D80F9A79BC883E9E625(NULL);
+		return L_0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED210699A_m71D00E5CE665ECF1468657F6AE5155C8BBF392C1 (const RuntimeMethod* method) 

@@ -770,13 +770,13 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.AssetBundle
 
+		//System.Void UnityEngine.AssetBundle::Unload(System.Boolean)
+		void Register_UnityEngine_AssetBundle_Unload();
+		Register_UnityEngine_AssetBundle_Unload();
+
 		//UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromFile_Internal(System.String,System.UInt32,System.UInt64)
 		void Register_UnityEngine_AssetBundle_LoadFromFile_Internal();
 		Register_UnityEngine_AssetBundle_LoadFromFile_Internal();
-
-		//UnityEngine.AssetBundleCreateRequest UnityEngine.AssetBundle::LoadFromFileAsync_Internal(System.String,System.UInt32,System.UInt64)
-		void Register_UnityEngine_AssetBundle_LoadFromFileAsync_Internal();
-		Register_UnityEngine_AssetBundle_LoadFromFileAsync_Internal();
 
 		//UnityEngine.AssetBundleCreateRequest UnityEngine.AssetBundle::LoadFromMemoryAsync_Internal(System.Byte[],System.UInt32)
 		void Register_UnityEngine_AssetBundle_LoadFromMemoryAsync_Internal();
@@ -789,6 +789,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Object UnityEngine.AssetBundle::LoadAsset_Internal(System.String,System.Type)
 		void Register_UnityEngine_AssetBundle_LoadAsset_Internal();
 		Register_UnityEngine_AssetBundle_LoadAsset_Internal();
+
+		//UnityEngine.Object[] UnityEngine.AssetBundle::LoadAssetWithSubAssets_Internal(System.String,System.Type)
+		void Register_UnityEngine_AssetBundle_LoadAssetWithSubAssets_Internal();
+		Register_UnityEngine_AssetBundle_LoadAssetWithSubAssets_Internal();
 
 	//End Registrations for type : UnityEngine.AssetBundle
 
@@ -1013,6 +1017,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Camera::set_backgroundColor_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_Camera_set_backgroundColor_Injected();
 		Register_UnityEngine_Camera_set_backgroundColor_Injected();
+
+		//System.Void UnityEngine.Camera::set_clearFlags(UnityEngine.CameraClearFlags)
+		void Register_UnityEngine_Camera_set_clearFlags();
+		Register_UnityEngine_Camera_set_clearFlags();
+
+		//System.Void UnityEngine.Camera::set_orthographic(System.Boolean)
+		void Register_UnityEngine_Camera_set_orthographic();
+		Register_UnityEngine_Camera_set_orthographic();
 
 		//System.Void UnityEngine.Camera::set_orthographicSize(System.Single)
 		void Register_UnityEngine_Camera_set_orthographicSize();
