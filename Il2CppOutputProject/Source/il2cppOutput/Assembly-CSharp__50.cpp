@@ -2066,6 +2066,8 @@ struct NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F  : public Ru
 	int32_t ___TargetFps;
 	bool ___EnableFrontCamera;
 	bool ___LandscapeCircleZoom;
+	bool ___ShowRingKeys;
+	bool ___ShowTopViewer;
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___DisabledOptionPacks;
 };
 struct NetConfig_t4B219AC3C676256655E56013F6376C3933E66A4B  : public RuntimeObject

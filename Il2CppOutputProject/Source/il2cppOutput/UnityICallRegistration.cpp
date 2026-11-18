@@ -1022,6 +1022,18 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_set_clearFlags();
 		Register_UnityEngine_Camera_set_clearFlags();
 
+		//System.Void UnityEngine.Camera::set_depth(System.Single)
+		void Register_UnityEngine_Camera_set_depth();
+		Register_UnityEngine_Camera_set_depth();
+
+		//System.Void UnityEngine.Camera::set_farClipPlane(System.Single)
+		void Register_UnityEngine_Camera_set_farClipPlane();
+		Register_UnityEngine_Camera_set_farClipPlane();
+
+		//System.Void UnityEngine.Camera::set_nearClipPlane(System.Single)
+		void Register_UnityEngine_Camera_set_nearClipPlane();
+		Register_UnityEngine_Camera_set_nearClipPlane();
+
 		//System.Void UnityEngine.Camera::set_orthographic(System.Boolean)
 		void Register_UnityEngine_Camera_set_orthographic();
 		Register_UnityEngine_Camera_set_orthographic();
@@ -3801,6 +3813,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.Rendering.SortingGroup
 
 	//Start Registrations for type : UnityEngine.RenderTexture
+
+		//System.Boolean UnityEngine.RenderTexture::Create()
+		void Register_UnityEngine_RenderTexture_Create();
+		Register_UnityEngine_RenderTexture_Create();
 
 		//System.Int32 UnityEngine.RenderTexture::get_height()
 		void Register_UnityEngine_RenderTexture_get_height();

@@ -205,6 +205,7 @@
 		18C2DA2269DDF3862E09DE6E /* Generics__36.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__36.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__36.cpp; sourceTree = SOURCE_ROOT; };
 		1972A87589EFBAF4986775C2 /* Generics__65.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__65.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__65.cpp; sourceTree = SOURCE_ROOT; };
 		1C3F27E9009F948E3EC03458 /* System.Xml__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml__5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Xml__5.cpp; sourceTree = SOURCE_ROOT; };
+		1C473E48207C8E4741CF401C /* Assembly-CSharp__59.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__59.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__59.cpp"; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-Target-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC31C363AA49E88C15788BB /* mscorlib__11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__11.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__11.cpp; sourceTree = SOURCE_ROOT; };
@@ -867,6 +868,7 @@
 				A0681946D39E04E92D886E8C /* Assembly-CSharp__56.cpp */,
 				1887791D1EDB29E243E57E31 /* Assembly-CSharp__57.cpp */,
 				234DA00B7297246CAFE09A46 /* Assembly-CSharp__58.cpp */,
+				1C473E48207C8E4741CF401C /* Assembly-CSharp__59.cpp */,
 				E0994B957EB074EB69BD9ABA /* Assembly-CSharp__6.cpp */,
 				504F10354AA6664ACC10AE55 /* Assembly-CSharp__7.cpp */,
 				0B698999CFCA23787EA976B2 /* Assembly-CSharp__8.cpp */,
