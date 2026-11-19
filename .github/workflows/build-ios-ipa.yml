@@ -16,13 +16,8 @@ jobs:
         run: |
           cat Libraries/libiPhone-lib.a.part* > Libraries/libiPhone-lib.a
           cat Libraries/libil2cpp.a.part* > Libraries/libil2cpp.a
-          cat Libraries/libcri_ware_unity.dylib.part* > Libraries/libcri_ware_unity.dylib
           rm -f Libraries/*.part*
-          ls -lh Libraries/libiPhone-lib.a Libraries/libil2cpp.a Libraries/libcri_ware_unity.dylib
-          if [ -f cri_exported_symbols.txt ]; then
-            echo "Stripping extraneous non-CRI symbols to avoid duplicate symbols..."
-            strip -s cri_exported_symbols.txt -u Libraries/libcri_ware_unity.dylib || true
-          fi
+          ls -lh Libraries/libiPhone-lib.a Libraries/libil2cpp.a
           find . -maxdepth 2 -name "*.sh" -exec chmod +x {} + || true
           chmod +x Il2CppOutputProject/IL2CPP/build/deploy_arm64/il2cpp || true
           chmod +x Il2CppOutputProject/IL2CPP/build/deploy_arm64/bee_backend/mac-arm64/bee_backend || true
@@ -39,7 +34,6 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO \
-            OTHER_LDFLAGS="-L$(pwd)/Libraries -lcri_ware_unity" \
             -derivedDataPath build \
             build
 
@@ -49,8 +43,6 @@ jobs:
           APP_PATH=$(find build/Build/Products/Release-iphoneos -maxdepth 1 -name "*.app" | head -n 1)
           echo "Found app: $APP_PATH"
           cp -R "$APP_PATH" Payload/NekoDX.app
-          mkdir -p Payload/NekoDX.app/Frameworks
-          cp Libraries/libcri_ware_unity.dylib Payload/NekoDX.app/Frameworks/ || true
           zip -qry NekoDX-1.70-CoreBinary.ipa Payload
           ls -lh NekoDX-1.70-CoreBinary.ipa
 

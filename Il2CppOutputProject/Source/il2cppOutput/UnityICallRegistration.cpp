@@ -5314,6 +5314,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_WebCamTexture_get_isPlaying();
 		Register_UnityEngine_WebCamTexture_get_isPlaying();
 
+		//System.Boolean UnityEngine.WebCamTexture::get_videoVerticallyMirrored()
+		void Register_UnityEngine_WebCamTexture_get_videoVerticallyMirrored();
+		Register_UnityEngine_WebCamTexture_get_videoVerticallyMirrored();
+
+		//System.Int32 UnityEngine.WebCamTexture::get_videoRotationAngle()
+		void Register_UnityEngine_WebCamTexture_get_videoRotationAngle();
+		Register_UnityEngine_WebCamTexture_get_videoRotationAngle();
+
 		//System.Void UnityEngine.WebCamTexture::Internal_CreateWebCamTexture(UnityEngine.WebCamTexture,System.String,System.Int32,System.Int32,System.Int32)
 		void Register_UnityEngine_WebCamTexture_Internal_CreateWebCamTexture();
 		Register_UnityEngine_WebCamTexture_Internal_CreateWebCamTexture();
