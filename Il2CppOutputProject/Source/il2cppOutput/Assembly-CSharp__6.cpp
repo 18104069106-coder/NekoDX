@@ -18391,49 +18391,95 @@ IL_0021:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicInfomationController_SetAchievement_mF020D6ED30FA9C1BBB2A1BB17B50FA7C3669D56B (MusicInfomationController_tC141DC74F92AF4159B22FC2DDA116077AE72B938* __this, uint32_t ___0_score, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___singlePlayObject;
-		NullCheck(L_0);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_0, NULL);
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_1)
 		{
-			goto IL_0026;
+			goto IL_0042;
 		}
 	}
 	{
-		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_2 = __this->____singleAchievementCounter;
-		uint32_t L_3 = ___0_score;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___singlePlayObject;
 		NullCheck(L_2);
-		AchievementCounterObject_SetAchievement_m2DF848FCB5FCAC9AD0FC7A134B05F5200A3A8BF6(L_2, 0, L_3, NULL);
+		bool L_3;
+		L_3 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0042;
+		}
+	}
+	{
 		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_4 = __this->____singleAchievementCounter;
-		NullCheck(L_4);
-		VirtualActionInvoker0::Invoke(9, L_4);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_6 = __this->____singleAchievementCounter;
+		uint32_t L_7 = ___0_score;
+		NullCheck(L_6);
+		AchievementCounterObject_SetAchievement_m2DF848FCB5FCAC9AD0FC7A134B05F5200A3A8BF6(L_6, 0, L_7, NULL);
+		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_8 = __this->____singleAchievementCounter;
+		NullCheck(L_8);
+		VirtualActionInvoker0::Invoke(9, L_8);
 		return;
 	}
 
-IL_0026:
+IL_0042:
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___multiPlayObject;
-		NullCheck(L_5);
-		bool L_6;
-		L_6 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_5, NULL);
-		if (!L_6)
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___multiPlayObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
 		{
-			goto IL_004b;
+			goto IL_0083;
 		}
 	}
 	{
-		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_7 = __this->____multiAchievementCounter;
-		uint32_t L_8 = ___0_score;
-		NullCheck(L_7);
-		AchievementCounterObject_SetAchievement_m2DF848FCB5FCAC9AD0FC7A134B05F5200A3A8BF6(L_7, 0, L_8, NULL);
-		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_9 = __this->____multiAchievementCounter;
-		NullCheck(L_9);
-		VirtualActionInvoker0::Invoke(9, L_9);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___multiPlayObject;
+		NullCheck(L_11);
+		bool L_12;
+		L_12 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_13 = __this->____multiAchievementCounter;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_15 = __this->____multiAchievementCounter;
+		uint32_t L_16 = ___0_score;
+		NullCheck(L_15);
+		AchievementCounterObject_SetAchievement_m2DF848FCB5FCAC9AD0FC7A134B05F5200A3A8BF6(L_15, 0, L_16, NULL);
+		AchievementCounterObject_t9974446447680D8594252E8967BB0355191F79C5* L_17 = __this->____multiAchievementCounter;
+		NullCheck(L_17);
+		VirtualActionInvoker0::Invoke(9, L_17);
 	}
 
-IL_004b:
+IL_0083:
 	{
 		return;
 	}
@@ -18691,6 +18737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicInfomationController_ResetInfomatio
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral043C638CA5FEAEB32E8D2F3614043906C1DC4D53);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral78C8229D1437973252A165E60C2F767E4ED55B1B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC8D34FF73BC63049FF4E749D420AE71E1C906E67);
@@ -18699,17 +18746,73 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MusicInfomationController_ResetInfomatio
 	}
 	{
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->___musicJacket;
-		NullCheck(L_0);
-		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_0, (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL, NULL);
-		CustomTextScroll_tF517960CAB7AD92EBA5037F2D6D9734907655705* L_1 = __this->___MusicNameText;
-		NullCheck(L_1);
-		CustomTextScroll_SetData_m6EC95DD193ABD719E3A0C885BE7DBD849EFC83F8(L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		SpriteCounter_t2D3788899091F428B375E9C3667B700BC7513F88* L_2 = __this->____difficultySingle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = __this->___musicJacket;
 		NullCheck(L_2);
-		SpriteCounter_ChangeText_m9ECC42FCE7C2041ED098801F687A5A459F9CF9BF(L_2, _stringLiteral043C638CA5FEAEB32E8D2F3614043906C1DC4D53, _stringLiteral043C638CA5FEAEB32E8D2F3614043906C1DC4D53, NULL);
-		SpriteCounter_t2D3788899091F428B375E9C3667B700BC7513F88* L_3 = __this->____difficultyDouble;
-		NullCheck(L_3);
-		SpriteCounter_ChangeText_m9ECC42FCE7C2041ED098801F687A5A459F9CF9BF(L_3, _stringLiteral78C8229D1437973252A165E60C2F767E4ED55B1B, _stringLiteralC8D34FF73BC63049FF4E749D420AE71E1C906E67, NULL);
+		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_2, (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL, NULL);
+	}
+
+IL_001a:
+	{
+		CustomTextScroll_tF517960CAB7AD92EBA5037F2D6D9734907655705* L_3 = __this->___MusicNameText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		CustomTextScroll_tF517960CAB7AD92EBA5037F2D6D9734907655705* L_5 = __this->___MusicNameText;
+		NullCheck(L_5);
+		CustomTextScroll_SetData_m6EC95DD193ABD719E3A0C885BE7DBD849EFC83F8(L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+	}
+
+IL_0038:
+	{
+		SpriteCounter_t2D3788899091F428B375E9C3667B700BC7513F88* L_6 = __this->____difficultySingle;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		SpriteCounter_t2D3788899091F428B375E9C3667B700BC7513F88* L_8 = __this->____difficultySingle;
+		NullCheck(L_8);
+		SpriteCounter_ChangeText_m9ECC42FCE7C2041ED098801F687A5A459F9CF9BF(L_8, _stringLiteral043C638CA5FEAEB32E8D2F3614043906C1DC4D53, _stringLiteral043C638CA5FEAEB32E8D2F3614043906C1DC4D53, NULL);
+	}
+
+IL_005b:
+	{
+		SpriteCounter_t2D3788899091F428B375E9C3667B700BC7513F88* L_9 = __this->____difficultyDouble;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		SpriteCounter_t2D3788899091F428B375E9C3667B700BC7513F88* L_11 = __this->____difficultyDouble;
+		NullCheck(L_11);
+		SpriteCounter_ChangeText_m9ECC42FCE7C2041ED098801F687A5A459F9CF9BF(L_11, _stringLiteral78C8229D1437973252A165E60C2F767E4ED55B1B, _stringLiteralC8D34FF73BC63049FF4E749D420AE71E1C906E67, NULL);
+	}
+
+IL_007e:
+	{
 		MusicInfomationController_SetAchievement_mF020D6ED30FA9C1BBB2A1BB17B50FA7C3669D56B(__this, 0, NULL);
 		MusicInfomationController_SetUtageDoublePLayerScore_m06FA3EBC23F34DF10806A53F92DF0066924EC16D(__this, (bool)0, NULL);
 		MusicInfomationController_SetRank_m6FF4F4A66A7E8B3C317012F334F7F806225FE503(__this, 1, NULL);
