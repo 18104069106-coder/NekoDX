@@ -9593,15 +9593,15 @@ struct U3CCheckAndConvertResourcesCoroutineU3Ed__44_t536958AFCCC5F7817219EA4320C
 	NekoDXBootstrapper_t94206D44F97ABBE140D79A96B9497C93B246D0E5* ___U3CU3E4__this;
 	U3CU3Ec__DisplayClass44_0_t2FEF991906B7ED107630985D13385E0BC64835B4* ___U3CU3E8__1;
 };
-struct U3CU3Ec__DisplayClass39_0_tAEE79FC176830C9433DC87D56F39F678987C318F  : public RuntimeObject
+struct U3CU3Ec__DisplayClass47_0_t4963BDDF28DF9A87E9D66C1C494691033335988E  : public RuntimeObject
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onClick;
 };
-struct U3CU3Ec__DisplayClass40_0_t35FD8630626EF9BB730BE9075F7EA62105CFB658  : public RuntimeObject
+struct U3CU3Ec__DisplayClass49_0_t8A7A2FCA9A8B35A150D056988F93B9C9E3F44F68  : public RuntimeObject
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onClick;
 };
-struct U3CHoldButtonsU3Ed__41_t3E0B64B169DD70C1A508848C0DFC9F317C8FDB3F  : public RuntimeObject
+struct U3CHoldButtonsU3Ed__54_tC950832B857182EF796EF817E86DA9D8BF208049  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -9609,7 +9609,7 @@ struct U3CHoldButtonsU3Ed__41_t3E0B64B169DD70C1A508848C0DFC9F317C8FDB3F  : publi
 	NekoDXInGameUI_tE1D2D4D106095EE5323D8DDE8A318ACB96F7BCD5* ___U3CU3E4__this;
 	float ___duration;
 };
-struct U3CPulseSwitchU3Ed__42_tF71EC297E641CBBDD3B8B737226A2CA0C83AB313  : public RuntimeObject
+struct U3CPulseSwitchU3Ed__55_t24B45B90C79C76A325DFBECF5F70F8D28B363457  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -39966,12 +39966,19 @@ struct NekoDXInGameUI_tE1D2D4D106095EE5323D8DDE8A318ACB96F7BCD5  : public MonoBe
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ____texKey;
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ____texKeyDown;
 	bool ____showRingKeys;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____btnTopViewer;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____btnCard;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____btnSetting;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____btnCoin;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____btnDXToggle;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____settingPanel;
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____fpsText;
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____toastText;
-	float ____toastUntil;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ____displayText;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____logLines;
 	int32_t ____fpsFrames;
 	float ____fpsTimer;
+	int32_t ____currentFps;
+	String_t* ____lastToast;
+	float ____toastUntil;
 	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ____forcedButtons;
 	int32_t ____lastW;
 	int32_t ____lastH;
@@ -56427,13 +56434,13 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize3641 = { sizeof(U3CCheckAndC
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3642;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3642 = { sizeof(NekoDXBootstrapper_t94206D44F97ABBE140D79A96B9497C93B246D0E5), -1, sizeof(NekoDXBootstrapper_t94206D44F97ABBE140D79A96B9497C93B246D0E5_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3643;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3643 = { sizeof(U3CU3Ec__DisplayClass39_0_tAEE79FC176830C9433DC87D56F39F678987C318F), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3643 = { sizeof(U3CU3Ec__DisplayClass47_0_t4963BDDF28DF9A87E9D66C1C494691033335988E), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3644;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3644 = { sizeof(U3CU3Ec__DisplayClass40_0_t35FD8630626EF9BB730BE9075F7EA62105CFB658), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3644 = { sizeof(U3CU3Ec__DisplayClass49_0_t8A7A2FCA9A8B35A150D056988F93B9C9E3F44F68), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3645;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3645 = { sizeof(U3CHoldButtonsU3Ed__41_t3E0B64B169DD70C1A508848C0DFC9F317C8FDB3F), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3645 = { sizeof(U3CHoldButtonsU3Ed__54_tC950832B857182EF796EF817E86DA9D8BF208049), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3646;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize3646 = { sizeof(U3CPulseSwitchU3Ed__42_tF71EC297E641CBBDD3B8B737226A2CA0C83AB313), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize3646 = { sizeof(U3CPulseSwitchU3Ed__55_t24B45B90C79C76A325DFBECF5F70F8D28B363457), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3647;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize3647 = { sizeof(NekoDXInGameUI_tE1D2D4D106095EE5323D8DDE8A318ACB96F7BCD5), -1, sizeof(NekoDXInGameUI_tE1D2D4D106095EE5323D8DDE8A318ACB96F7BCD5_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3648;
