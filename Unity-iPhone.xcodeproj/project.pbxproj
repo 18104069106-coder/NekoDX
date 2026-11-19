@@ -369,6 +369,7 @@
 		6F88E695F4B9054ACDB02B6F /* Generics__35.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__35.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__35.cpp; sourceTree = SOURCE_ROOT; };
 		6F9722D0330536FF815E94C5 /* System.Xml__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Xml__1.cpp; sourceTree = SOURCE_ROOT; };
 		70643669ED2835F12FAAAE4A /* Generics__76.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__76.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__76.cpp; sourceTree = SOURCE_ROOT; };
+		70FE2BDFB277A35F0A3B88EE /* Assembly-CSharp-firstpass__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp-firstpass__2.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp-firstpass__2.cpp"; sourceTree = SOURCE_ROOT; };
 		715BA45FFD028756DA8BD144 /* Generics__17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__17.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__17.cpp; sourceTree = SOURCE_ROOT; };
 		727353E0A17F3CD26C387C4B /* UnityEngine.UIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.UIModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		732F023F742A46D0095260A9 /* Assembly-CSharp-firstpass_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "Assembly-CSharp-firstpass_CodeGen.c"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp-firstpass_CodeGen.c"; sourceTree = SOURCE_ROOT; };
@@ -846,6 +847,7 @@
 				DE85ECC8173A198BB20AF9F1 /* Assembly-CSharp-firstpass.cpp */,
 				732F023F742A46D0095260A9 /* Assembly-CSharp-firstpass_CodeGen.c */,
 				5B53B64A88569D3F8EB8A9F1 /* Assembly-CSharp-firstpass__1.cpp */,
+				70FE2BDFB277A35F0A3B88EE /* Assembly-CSharp-firstpass__2.cpp */,
 				C40C9D5FB5363330524518CB /* Assembly-CSharp.cpp */,
 				359EA6DE6F0ADB889FC61B63 /* Assembly-CSharp_CodeGen.c */,
 				F828452E792C2569D9C775E5 /* Assembly-CSharp__1.cpp */,

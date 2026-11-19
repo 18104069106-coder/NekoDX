@@ -138,23 +138,24 @@ IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5
 IL2CPP_EXTERN_C String_t* _stringLiteral03F59298D5874B7488B757437AC4F784A9D7558E;
 IL2CPP_EXTERN_C String_t* _stringLiteral0CBBF2D6CC164D200522D0712DFDDDB603C7B567;
 IL2CPP_EXTERN_C String_t* _stringLiteral16B7CEB2F52EDBA1B0FA88C6BD33CC1EB7098C13;
-IL2CPP_EXTERN_C String_t* _stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E;
-IL2CPP_EXTERN_C String_t* _stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930;
+IL2CPP_EXTERN_C String_t* _stringLiteral1E6FA888FC82C2FCFE372B21D4325702B71C1582;
 IL2CPP_EXTERN_C String_t* _stringLiteral25F85075C1F260509B8E66D6C1DA970B573CCBB8;
 IL2CPP_EXTERN_C String_t* _stringLiteral26C54B8AE2DECB9133871F4B326441DD2DF162C8;
 IL2CPP_EXTERN_C String_t* _stringLiteral31039B1C9C0A435CA5179101F84AB21E9CF7BB49;
+IL2CPP_EXTERN_C String_t* _stringLiteral3AE148F4539A6130C80EF45C5441F068ADBF8C8C;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
 IL2CPP_EXTERN_C String_t* _stringLiteral546A513F6F848E41008664F9C1139BB68885B0AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral57CA527569C6E30928AA84E434C041D883FB8D3B;
 IL2CPP_EXTERN_C String_t* _stringLiteral6000A7D1F7BCD0B8E87706F263F7B676D0B4E615;
 IL2CPP_EXTERN_C String_t* _stringLiteral7A0071E3EB40AD9A1C1E4C4647B0DCA9C77512BB;
 IL2CPP_EXTERN_C String_t* _stringLiteral7A9D14B94D28FB9E5C1133505C5CFB7767D6C55F;
-IL2CPP_EXTERN_C String_t* _stringLiteral93AC16F78F107E9B5BAC5CCA7A3AFA523D8BDC60;
+IL2CPP_EXTERN_C String_t* _stringLiteralA493FF06F94D0907E2F1797D03C4EB68CE5751F2;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D;
 IL2CPP_EXTERN_C String_t* _stringLiteralB4D8750C59CE123025990AD22F8E27C3459AF91F;
 IL2CPP_EXTERN_C String_t* _stringLiteralB5849F4837FD33ACF5EF8DC4E21373DC17B36E99;
 IL2CPP_EXTERN_C String_t* _stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9;
 IL2CPP_EXTERN_C String_t* _stringLiteralF5AB463FC1824BC1D72C5F2624E787E9B35B3B59;
 IL2CPP_EXTERN_C String_t* _stringLiteralF69626606645C14AD8B62627B56303216F69714E;
 IL2CPP_EXTERN_C String_t* _stringLiteralFD1E2B3277CF7594DC954FFFC9C62262A055965D;
@@ -1474,8 +1475,9 @@ inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_
 	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NekoDaemonBackend_LoadUserConfig_m42ED931A9D09A8B4F1CEA8C2ED1B922D15903B8F (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5 (String_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_TrimEnd_mDB4D96F8312F563656D4115A9F280062E05D2EE8 (String_t* __this, Il2CppChar ___0_trimChar, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5 (String_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NekoDaemonBackend_SetDisabledOptions_m117957C94723D8E0204E6640C36DFD73BB180BCA (RuntimeObject* ___0_disabled, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F (int32_t ___0_value, const RuntimeMethod* method) ;
@@ -2854,20 +2856,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NekoDXSettingsData__ctor_m4614C082E5B4F5
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16B7CEB2F52EDBA1B0FA88C6BD33CC1EB7098C13);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E6FA888FC82C2FCFE372B21D4325702B71C1582);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31039B1C9C0A435CA5179101F84AB21E9CF7BB49);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral93AC16F78F107E9B5BAC5CCA7A3AFA523D8BDC60);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		__this->___UseNetwork = (bool)1;
-		__this->___ServerHost = _stringLiteral93AC16F78F107E9B5BAC5CCA7A3AFA523D8BDC60;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___ServerHost), (void*)_stringLiteral93AC16F78F107E9B5BAC5CCA7A3AFA523D8BDC60);
-		__this->___AimeDbHost = _stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___AimeDbHost), (void*)_stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930);
-		__this->___KeyChip = _stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___KeyChip), (void*)_stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E);
+		__this->___ServerHost = _stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ServerHost), (void*)_stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9);
+		__this->___AimeDbHost = _stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___AimeDbHost), (void*)_stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9);
+		__this->___KeyChip = _stringLiteral1E6FA888FC82C2FCFE372B21D4325702B71C1582;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___KeyChip), (void*)_stringLiteral1E6FA888FC82C2FCFE372B21D4325702B71C1582);
 		__this->___AccessCode = _stringLiteral31039B1C9C0A435CA5179101F84AB21E9CF7BB49;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AccessCode), (void*)_stringLiteral31039B1C9C0A435CA5179101F84AB21E9CF7BB49);
 		__this->___GameId = _stringLiteral16B7CEB2F52EDBA1B0FA88C6BD33CC1EB7098C13;
@@ -2879,7 +2880,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NekoDXSettingsData__ctor_m4614C082E5B4F5
 		__this->___IgnoreError = (bool)1;
 		__this->___TargetFps = ((int32_t)120);
 		__this->___EnableFrontCamera = (bool)1;
-		__this->___LandscapeCircleZoom = (bool)1;
 		__this->___ShowRingKeys = (bool)1;
 		__this->___ShowTopViewer = (bool)1;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
@@ -2955,10 +2955,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NekoDXSettings_Load_m7782AEF8CD029312A1E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NekoDXSettings_tA2D33B5DB93CAE78EB2928CCF1B52B139952BEF1_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16B7CEB2F52EDBA1B0FA88C6BD33CC1EB7098C13);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1E6FA888FC82C2FCFE372B21D4325702B71C1582);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31039B1C9C0A435CA5179101F84AB21E9CF7BB49);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral93AC16F78F107E9B5BAC5CCA7A3AFA523D8BDC60);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9);
 		s_Il2CppMethodInitialized = true;
 	}
 	NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* V_0 = NULL;
@@ -3057,8 +3056,8 @@ IL_004f:
 	{
 		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_16 = ((NekoDXSettings_tA2D33B5DB93CAE78EB2928CCF1B52B139952BEF1_StaticFields*)il2cpp_codegen_static_fields_for(NekoDXSettings_tA2D33B5DB93CAE78EB2928CCF1B52B139952BEF1_il2cpp_TypeInfo_var))->____current;
 		NullCheck(L_16);
-		L_16->___ServerHost = _stringLiteral93AC16F78F107E9B5BAC5CCA7A3AFA523D8BDC60;
-		Il2CppCodeGenWriteBarrier((void**)(&L_16->___ServerHost), (void*)_stringLiteral93AC16F78F107E9B5BAC5CCA7A3AFA523D8BDC60);
+		L_16->___ServerHost = _stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9;
+		Il2CppCodeGenWriteBarrier((void**)(&L_16->___ServerHost), (void*)_stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9);
 	}
 
 IL_006f:
@@ -3076,8 +3075,8 @@ IL_006f:
 	{
 		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_20 = ((NekoDXSettings_tA2D33B5DB93CAE78EB2928CCF1B52B139952BEF1_StaticFields*)il2cpp_codegen_static_fields_for(NekoDXSettings_tA2D33B5DB93CAE78EB2928CCF1B52B139952BEF1_il2cpp_TypeInfo_var))->____current;
 		NullCheck(L_20);
-		L_20->___AimeDbHost = _stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930;
-		Il2CppCodeGenWriteBarrier((void**)(&L_20->___AimeDbHost), (void*)_stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930);
+		L_20->___AimeDbHost = _stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9;
+		Il2CppCodeGenWriteBarrier((void**)(&L_20->___AimeDbHost), (void*)_stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9);
 	}
 
 IL_008f:
@@ -3095,8 +3094,8 @@ IL_008f:
 	{
 		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_24 = ((NekoDXSettings_tA2D33B5DB93CAE78EB2928CCF1B52B139952BEF1_StaticFields*)il2cpp_codegen_static_fields_for(NekoDXSettings_tA2D33B5DB93CAE78EB2928CCF1B52B139952BEF1_il2cpp_TypeInfo_var))->____current;
 		NullCheck(L_24);
-		L_24->___KeyChip = _stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E;
-		Il2CppCodeGenWriteBarrier((void**)(&L_24->___KeyChip), (void*)_stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E);
+		L_24->___KeyChip = _stringLiteral1E6FA888FC82C2FCFE372B21D4325702B71C1582;
+		Il2CppCodeGenWriteBarrier((void**)(&L_24->___KeyChip), (void*)_stringLiteral1E6FA888FC82C2FCFE372B21D4325702B71C1582);
 	}
 
 IL_00af:
@@ -3410,11 +3409,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NekoDXSettings_ApplyToDaemon_mE42DDF4695
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16B7CEB2F52EDBA1B0FA88C6BD33CC1EB7098C13);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3AE148F4539A6130C80EF45C5441F068ADBF8C8C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA493FF06F94D0907E2F1797D03C4EB68CE5751F2);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9);
 		s_Il2CppMethodInitialized = true;
 	}
 	NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* G_B2_0 = NULL;
+	String_t* G_B1_0 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B10_0 = NULL;
+	String_t* G_B9_0 = NULL;
 	{
 		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_0;
 		L_0 = NekoDXSettings_get_Current_m98C4180A6F91C9BBF932EB5F7A4CB70EA3945AA5(NULL);
@@ -3424,120 +3435,214 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NekoDXSettings_ApplyToDaemon_mE42DDF4695
 		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_1 = V_0;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___ServerHost;
-		NullCheck(L_2);
-		String_t* L_3;
-		L_3 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_2, NULL);
-		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultServerHost = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultServerHost), (void*)L_3);
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_4 = V_0;
+		String_t* L_3 = L_2;
+		if (L_3)
+		{
+			G_B2_0 = L_3;
+			goto IL_001a;
+		}
+		G_B1_0 = L_3;
+	}
+	{
+		G_B2_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+	}
+
+IL_001a:
+	{
+		NullCheck(G_B2_0);
+		String_t* L_4;
+		L_4 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(G_B2_0, _stringLiteral3AE148F4539A6130C80EF45C5441F068ADBF8C8C, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		NullCheck(L_4);
-		String_t* L_5 = L_4->___AimeDbHost;
+		String_t* L_5;
+		L_5 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_4, _stringLiteralA493FF06F94D0907E2F1797D03C4EB68CE5751F2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_5, NULL);
-		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___AimeDbHost = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___AimeDbHost), (void*)L_6);
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_7 = V_0;
-		NullCheck(L_7);
-		String_t* L_8 = L_7->___GameId;
+		L_6 = String_TrimEnd_mDB4D96F8312F563656D4115A9F280062E05D2EE8(L_5, ((int32_t)47), NULL);
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_6, NULL);
+		V_1 = L_7;
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_8 = V_0;
 		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_8, NULL);
-		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___GameId = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___GameId), (void*)L_9);
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_10 = V_0;
-		NullCheck(L_10);
-		String_t* L_11 = L_10->___KeyChip;
-		bool L_12;
-		L_12 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_11, NULL);
-		if (L_12)
+		String_t* L_9 = L_8->___AimeDbHost;
+		String_t* L_10 = L_9;
+		if (L_10)
 		{
-			goto IL_0098;
+			G_B4_0 = L_10;
+			goto IL_0054;
 		}
+		G_B3_0 = L_10;
 	}
 	{
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_13 = V_0;
+		G_B4_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+	}
+
+IL_0054:
+	{
+		NullCheck(G_B4_0);
+		String_t* L_11;
+		L_11 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(G_B4_0, _stringLiteral3AE148F4539A6130C80EF45C5441F068ADBF8C8C, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_11, _stringLiteralA493FF06F94D0907E2F1797D03C4EB68CE5751F2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_12);
+		String_t* L_13;
+		L_13 = String_TrimEnd_mDB4D96F8312F563656D4115A9F280062E05D2EE8(L_12, ((int32_t)47), NULL);
 		NullCheck(L_13);
-		String_t* L_14 = L_13->___KeyChip;
-		NullCheck(L_14);
-		String_t* L_15;
-		L_15 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_14, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		NullCheck(L_15);
-		int32_t L_16;
-		L_16 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_15, NULL);
-		if ((((int32_t)L_16) < ((int32_t)((int32_t)11))))
+		String_t* L_14;
+		L_14 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_13, NULL);
+		V_2 = L_14;
+		String_t* L_15 = V_1;
+		bool L_16;
+		L_16 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_15, NULL);
+		if (!L_16)
 		{
-			goto IL_0098;
+			goto IL_008d;
 		}
 	}
 	{
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_17 = V_0;
-		NullCheck(L_17);
-		String_t* L_18 = L_17->___KeyChip;
-		NullCheck(L_18);
-		String_t* L_19;
-		L_19 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_18, NULL);
+		V_1 = _stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9;
+	}
+
+IL_008d:
+	{
+		String_t* L_17 = V_2;
+		bool L_18;
+		L_18 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_17, NULL);
+		if (!L_18)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		V_2 = _stringLiteralE9A77A56BAE78004A046B91ACCDCEFACEEC937C9;
+	}
+
+IL_009b:
+	{
+		String_t* L_19 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var);
-		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipFull = L_19;
-		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipFull), (void*)L_19);
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_20 = V_0;
-		NullCheck(L_20);
-		String_t* L_21 = L_20->___KeyChip;
+		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultServerHost = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultServerHost), (void*)L_19);
+		String_t* L_20 = V_2;
+		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___AimeDbHost = L_20;
+		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___AimeDbHost), (void*)L_20);
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_21 = V_0;
 		NullCheck(L_21);
-		String_t* L_22;
-		L_22 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_21, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		NullCheck(L_22);
-		String_t* L_23;
-		L_23 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_22, 0, ((int32_t)11), NULL);
-		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipShort = L_23;
-		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipShort), (void*)L_23);
+		String_t* L_22 = L_21->___GameId;
+		String_t* L_23 = L_22;
+		if (L_23)
+		{
+			G_B10_0 = L_23;
+			goto IL_00b6;
+		}
+		G_B9_0 = L_23;
+	}
+	{
+		G_B10_0 = _stringLiteral16B7CEB2F52EDBA1B0FA88C6BD33CC1EB7098C13;
 	}
 
-IL_0098:
+IL_00b6:
 	{
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_24 = V_0;
-		NullCheck(L_24);
-		String_t* L_25 = L_24->___AccessCode;
-		bool L_26;
-		L_26 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_25, NULL);
-		if (L_26)
-		{
-			goto IL_00bf;
-		}
-	}
-	{
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_27 = V_0;
-		NullCheck(L_27);
-		String_t* L_28 = L_27->___AccessCode;
-		NullCheck(L_28);
-		int32_t L_29;
-		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
-		if ((!(((uint32_t)L_29) == ((uint32_t)((int32_t)20)))))
-		{
-			goto IL_00bf;
-		}
-	}
-	{
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_30 = V_0;
-		NullCheck(L_30);
-		String_t* L_31 = L_30->___AccessCode;
+		NullCheck(G_B10_0);
+		String_t* L_24;
+		L_24 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(G_B10_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var);
-		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultAccessCode = L_31;
-		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultAccessCode), (void*)L_31);
+		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___GameId = L_24;
+		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___GameId), (void*)L_24);
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_25 = V_0;
+		NullCheck(L_25);
+		String_t* L_26 = L_25->___KeyChip;
+		bool L_27;
+		L_27 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_26, NULL);
+		if (L_27)
+		{
+			goto IL_011d;
+		}
 	}
-
-IL_00bf:
+	{
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_28 = V_0;
+		NullCheck(L_28);
+		String_t* L_29 = L_28->___KeyChip;
+		NullCheck(L_29);
+		String_t* L_30;
+		L_30 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_29, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_30);
+		int32_t L_31;
+		L_31 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_30, NULL);
+		if ((((int32_t)L_31) < ((int32_t)((int32_t)11))))
+		{
+			goto IL_011d;
+		}
+	}
 	{
 		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_32 = V_0;
 		NullCheck(L_32);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_33 = L_32->___DisabledOptionPacks;
+		String_t* L_33 = L_32->___KeyChip;
+		NullCheck(L_33);
+		String_t* L_34;
+		L_34 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_33, NULL);
 		il2cpp_codegen_runtime_class_init_inline(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var);
-		NekoDaemonBackend_SetDisabledOptions_m117957C94723D8E0204E6640C36DFD73BB180BCA(L_33, NULL);
-		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_34 = V_0;
-		NullCheck(L_34);
-		int32_t L_35 = L_34->___TargetFps;
+		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipFull = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipFull), (void*)L_34);
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_35 = V_0;
+		NullCheck(L_35);
+		String_t* L_36 = L_35->___KeyChip;
+		NullCheck(L_36);
+		String_t* L_37;
+		L_37 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_36, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_37);
+		String_t* L_38;
+		L_38 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_37, 0, ((int32_t)11), NULL);
+		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipShort = L_38;
+		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___KeychipShort), (void*)L_38);
+	}
+
+IL_011d:
+	{
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_39 = V_0;
+		NullCheck(L_39);
+		String_t* L_40 = L_39->___AccessCode;
+		bool L_41;
+		L_41 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_40, NULL);
+		if (L_41)
+		{
+			goto IL_0144;
+		}
+	}
+	{
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_42 = V_0;
+		NullCheck(L_42);
+		String_t* L_43 = L_42->___AccessCode;
+		NullCheck(L_43);
+		int32_t L_44;
+		L_44 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_43, NULL);
+		if ((!(((uint32_t)L_44) == ((uint32_t)((int32_t)20)))))
+		{
+			goto IL_0144;
+		}
+	}
+	{
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_45 = V_0;
+		NullCheck(L_45);
+		String_t* L_46 = L_45->___AccessCode;
+		il2cpp_codegen_runtime_class_init_inline(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var);
+		((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultAccessCode = L_46;
+		Il2CppCodeGenWriteBarrier((void**)(&((NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_StaticFields*)il2cpp_codegen_static_fields_for(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var))->___DefaultAccessCode), (void*)L_46);
+	}
+
+IL_0144:
+	{
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_47 = V_0;
+		NullCheck(L_47);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_48 = L_47->___DisabledOptionPacks;
+		il2cpp_codegen_runtime_class_init_inline(NekoDaemonBackend_t4A53E17031BD0E2421BB17E9B2CB5CBB3608758D_il2cpp_TypeInfo_var);
+		NekoDaemonBackend_SetDisabledOptions_m117957C94723D8E0204E6640C36DFD73BB180BCA(L_48, NULL);
+		NekoDXSettingsData_t6AD25B73022FA93EA6FFA0E90D8C4EB7484CCA8F* L_49 = V_0;
+		NullCheck(L_49);
+		int32_t L_50 = L_49->___TargetFps;
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F(L_35, NULL);
+		Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F(L_50, NULL);
 		return;
 	}
 }
