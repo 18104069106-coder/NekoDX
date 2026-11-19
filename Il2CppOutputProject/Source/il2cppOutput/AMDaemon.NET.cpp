@@ -805,7 +805,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1C62E9CACF01E36B4E697C2DCDC9B1E58C78BA32
 IL2CPP_EXTERN_C String_t* _stringLiteral1E699C735EC7E5754FF50D5BB57620E11748C27E;
 IL2CPP_EXTERN_C String_t* _stringLiteral2335AD8B7C0C9657060DE43833B4635D2262E930;
 IL2CPP_EXTERN_C String_t* _stringLiteral24F404FFFD32BFB43054CCCB3D8A608C91AEF138;
-IL2CPP_EXTERN_C String_t* _stringLiteral2D87904D17A3590895547AB7E232342365C7956A;
 IL2CPP_EXTERN_C String_t* _stringLiteral31039B1C9C0A435CA5179101F84AB21E9CF7BB49;
 IL2CPP_EXTERN_C String_t* _stringLiteral3322EB48A32BB23673E1EB8117D35B27E69A1087;
 IL2CPP_EXTERN_C String_t* _stringLiteral34041E68B94E3B99CF0B3B4B0D5AD33B0CE46C1A;
@@ -5854,6 +5853,7 @@ inline void LazyCollection_1__ctor_m3BB280C0F0A7DF30C08AD370DD575AC97F99BF53 (La
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Input_set_Players_m10F14D85C073A577988298960683D5F8F8D3317A_inline (LazyCollection_1_tD3E240EFEFB8D1D4AFD9EBD7614EBAE3629D130D* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m4B1A4C827BA108A896608FF0CAEB160090CF8328 (U3CU3Ec_t705B4C063C585B63A71011C177523B04622445E9* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputId_set_Value_m77F9CA0262E3EDBE543F5786D46DD8C2157A141C_inline (InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputId_op_Inequality_m1FC73BFF8C72DFFE12EDD34BA8EB7E8A206A4BA8 (InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A* ___0_l, InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A* ___1_r, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputId_Equals_m0A3BDD15AB6BCF4F5E60F1D1954C4D4415C4B383 (InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A* __this, InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A* ___0_other, const RuntimeMethod* method) ;
@@ -6102,7 +6102,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5 (String_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLowerInvariant_mBE32C93DE27C5353FEA3FA654FC1DDBE3D0EB0F2 (String_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966 (String_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472 (String_t* __this, int32_t ___0_startIndex, const RuntimeMethod* method) ;
@@ -14725,7 +14724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_abaas_Log_putErrorMessage_m842AF7D07
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_AimeCampaignCountLimit_get_mA542F9F19CF975A32D1F195BAF89C2DB256CD61F (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 3;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_Aime_isAvailable_mDED5F73CC4EF76F3EB3AA6381CFE1F30B124D287 (const RuntimeMethod* method) 
@@ -15170,7 +15169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_AimeErrorInfo_getCategory_m910CAE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_AimeOfflineId_Size_get_m478EF255696A0E84B09D5A5402A5721AC2A1D985 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)17);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Api_AimeOfflineId_make_AccessCode_mB35C4A99499C3D5797B5B874322A4F6B77A06B1C (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_src, int32_t ___1_srcSize, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_dest, int32_t ___3_destSize, const RuntimeMethod* method) 
@@ -15426,7 +15425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_AccessCode_operator_less_m9144496D09
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_FeliCaId_Size_get_m8EBD34A62F9F19BDFC5B1D9041C608202DD63A05 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)16);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_FeliCaId_toString_mD9E71ED501694B7FEC79A105BD877ACAAD58AF14 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_src, int32_t ___1_srcSize, const RuntimeMethod* method) 
@@ -15450,7 +15449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_FeliCaId_operator_less_mD192ED687544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_AimeCampaignInfo_MaxNameLength_get_m083766167A28F0F5AF27AA4698684F2BF1E8BC20 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)127);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_AimeCampaignInfo_id_get_m7ED63DD226A330E27DE2D15AA4FE574ADF1B8C31 (intptr_t ___0_info, const RuntimeMethod* method) 
@@ -15804,37 +15803,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_AimePayDealSummary_getCount_mC35
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_AimePayCheckInPinCodeLength_get_m2E9F50B3F6463062C68F4C2B0C71DA2CBB8CC9D8 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxAimePayDealResultCount_get_m20F0D2243036310DA060716384197D06F7DD7829 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 5;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxAimePayDealSummaryCount_get_m7CA93565E485EB7152BD803E7EE46FF39E5AA239 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 7;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxAimePayErrorCodeLength_get_m4728AA075498C98A8466362B7DE23BEE33A176A3 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)18);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxAimePayItemIdLength_get_m81583E647115B6BC8DF9AFCC15C02A4DEEE1A056 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)13);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_MaxAimePayAmountCount_get_mA963ED16705E296C15DC29B6C0DC5CBE4538FCE4 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)99999);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_allnet_Accounting_isAvailable_m65050C1112AC4B154B2526841C641045CEECA058 (const RuntimeMethod* method) 
@@ -16301,7 +16300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_allnet_WiFiUnit_getMasterSerial_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_allnet_MaxWiFiUnitCount_get_mA0DA878FB7BE7CD51C050EA10E099A5597AA0C0A (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)10);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_Apm_startGame_m3BE3486D10045687982C901FA98534091C75EC02 (uint32_t ___0_appVersionValue, String_t* ___1_gameId, bool ___2_withAime, const RuntimeMethod* method) 
@@ -16557,19 +16556,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_Backup_executeSave_mF9B986713AD5D5DF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_BoardIO_DipSwitchCount_get_mA1ADF2524E4DA9AEB630B5DAAAA17E2EFCC70EB3 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 8;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_BoardIO_PushSwitchCount_get_m77E67D698EEFE4F99884DDF71467BFA35B4085A8 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 2;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_BoardIO_BoardLedCount_get_m4D698DAE1EFB38E3C4BBC493048C90FFAB945FA1 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 2;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Api_BoardIO_getDipSwitchBits_mC21424167688814DC62FD5D8E897270C345535EA (const RuntimeMethod* method) 
@@ -16749,7 +16748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_CanAck_getDataSize_m3585F3A5D2B8B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxCanPacketDataSize_get_m6F9BF66A8EB58C1B5DA6C052A3E84BCCB925F600 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 8;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Api_MaxCanPacketPriority_get_m9861AA2A2CCD0D46FF412244953BB4F7FE2E231C (const RuntimeMethod* method) 
@@ -16855,7 +16854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_Credit_getSpecialDevice_m8E752AC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_CreditBookkeeping_CoinChuteCount_get_m4881D994E18EDF5AD25F7A7163E9245531013142 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_CreditBookkeeping_coins_get_m6D173F0340E2B8BDB3607A5A47BA842CBCAADFB3 (intptr_t ___0_bookkeeping, int32_t ___1_coinChuteIndex, const RuntimeMethod* method) 
@@ -16903,13 +16902,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_CreditBookkeeping_totalCredit_ge
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_CreditConfig_MaxCoinChuteCount_get_m9951640921163C84CEF414F59D9D749BD95CEEE3 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 2;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_CreditConfig_MaxGameCostCount_get_m1E131D9CC0C76214EF9BB54F00F9153A13C38DEF (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 8;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_CreditConfig_coinChuteCommon_get_m22109025D7F46873909CA17D67698BC2395B3634 (intptr_t ___0_config, const RuntimeMethod* method) 
@@ -17381,61 +17380,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_EMoneyReport_getAlarmAmount_m4AD4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_EMoneyBrandIdCount_get_m63C59FAB44F7E3CEC58E6A147A372F80747D0339 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 7;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyDealResultCount_get_m62983B08EF14B9A367FAD50DE7DEB71C9EF67999 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)20);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyReportCount_get_m4D7114713BACC6A2F80DE1665F2E193252907102 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)20);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyBrandNameLength_get_m42E9F2960AAD76B8255FC60DC4D5B2F4D1639AF1 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)15);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyDealNumberLength_get_m2061F371132B876CCA2263F040F1BBF46D081BC3 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)20);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyCardNumberLength_get_mCEA35545F64DBAF27D079749DC12185738A3DA60 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)20);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyTerminalIdLength_get_m994AF9B337B8338191DACD00D511DE9E22C47465 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)30);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyTerminalSerialLength_get_m34483CC2C5BD853ED50DCE8EC668183980E41893 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)20);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_MaxEMoneyItemIdLength_get_mE555B4BA5E484E36B4FDAB7402A0F2C8F89EDF91 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)13);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_MaxEMoneyAmountCount_get_mF90EFF738C60BEC3FDA3A236F3CDBD5A01E06610 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)99999);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_Error_getInfo_mE61391B57F8EFDFB86B00EF933C165A291692FD4 (const RuntimeMethod* method) 
@@ -17531,13 +17530,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_ErrorTimesItem_times_get_m58F3C5B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_ErrorNumberLimit_get_m843E9329311814570437116D3790EB5F574FDC89 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)65535);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_ErrorSubNumberLimit_get_m50F8D61CB0080D9B54A6217A5ADF43EF4BF07F5B (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)999);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_Input_getSystem_mECC99344F85AB251F5C8C5ED5AF4DC620DE23C5E (const RuntimeMethod* method) 
@@ -17566,7 +17565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_Input_getPlayer_m117FE17BF7ED6FA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_InputId_MaxSize_get_m3EFC94A6522642D0E586FE9D60D22168C4994013 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)24);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_InputUnit_exists_mA84246EF2C5F39982DC08BEE40407403040BA6FF (intptr_t ___0_unit, String_t* ___1_idValue, const RuntimeMethod* method) 
@@ -17847,13 +17846,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_JvsNode_getGeneralOutput_mA1B1D3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_JvsSwitchInput_MaxSystemBitCount_get_mB0BC30F9948D42FA03181878540EF00C6E791BD6 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return 8;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_JvsSwitchInput_MaxPlayerBitCount_get_m847D85B2BDD9724E3AB92EBB9299E2BA6D1AC6B4 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)64);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Api_JvsSwitchInput_getSystemBits_m186C5A13D3DE0AA3B7DCA8F58A9927CDE5BA653C (intptr_t ___0_input, const RuntimeMethod* method) 
@@ -17931,7 +17930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Api_JvsRotaryInput_getValue_mD2CF68C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_JvsGeneralOutput_MaxBitCount_get_mC927E2EF584C79D76CC31B638C5E509B66E271B9 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)64);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Api_JvsGeneralOutput_setBits_m5443443C36A9AFD63B85B2654FA41FB6394D15A8 (intptr_t ___0_output, uint64_t ___1_bits, bool ___2_forceUpdate, const RuntimeMethod* method) 
@@ -18410,7 +18409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_Output_getPlayer_mE5398FD0DE091E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_OutputId_MaxSize_get_mA859FAB19800C18D37B42C0AA4B8F001F71C4F92 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)24);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_OutputUnit_exists_m47FE46B99A16179744F1DCDC11157494CEDC9A22 (intptr_t ___0_unit, String_t* ___1_idValue, const RuntimeMethod* method) 
@@ -18643,7 +18642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_Sequence_isTest_m64FB78CD6D442EA6A70
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_SequenceBookkeeping_MaxTimeHistogramCount_get_mF724D1868388D64677FD6203C42D7AE52D2CCA17 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)32);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_SequenceBookkeeping_numberOfGames_get_mFA7AA268900CD09B7F3BF9A9806C16495201E635 (intptr_t ___0_bookkeeping, const RuntimeMethod* method) 
@@ -18984,7 +18983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_UsbIONode_getUniqueOutput_m56D50
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_UsbIOSwitchInput_MaxPlayerBitCount_get_mD7D15C3860B803036C0BCFA27B5D8469074771EC (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)64);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_UsbIOSwitchInput_isTestOn_m772BC6CBB929A73C7B44CDE4BD5DE90D3887042A (intptr_t ___0_input, const RuntimeMethod* method) 
@@ -19068,7 +19067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Api_UsbIORotaryInput_getValue_mAF877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_UsbIOUniqueInput_RawDataSize_get_m0A04CD85695668FE72B77BC486D0BB26C0240D29 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)29);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_UsbIOUniqueInput_isSupported_m5D514F4B3BE12AAA07777C7F99A6B322FED57360 (intptr_t ___0_input, uint8_t ___1_command, const RuntimeMethod* method) 
@@ -19098,7 +19097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_UsbIOUniqueInput_getRaw_mBDB9510A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_UsbIOGeneralOutput_MaxBitCount_get_mBEB2D7273A7BAEAC0898DDCF4CFB74C8971082D5 (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)64);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Api_UsbIOGeneralOutput_setBits_mDEB19A96DC62EF20A4049964CAF54FA127FEE413 (intptr_t ___0_output, uint64_t ___1_bits, bool ___2_forceUpdate, const RuntimeMethod* method) 
@@ -19164,7 +19163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Api_UsbIOPwmOutput_getCurrentDuty_m60
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Api_UsbIOUniqueOutput_MaxDataSize_get_m4D4691EB95B9CE23788E9B6EDAC40A33A3C395CF (const RuntimeMethod* method) 
 {
 	{
-		return 0;
+		return ((int32_t)62);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_UsbIOUniqueOutput_isSupported_m2A2BB651C5B867994F52F44BCFBD86D82D45513D (intptr_t ___0_output, uint8_t ___1_command, const RuntimeMethod* method) 
@@ -19296,19 +19295,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_RequestState_isSucceeded_m5FE13850AD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_Version_PatchLimit_get_m462207AD1A66DD6C8882302C5631BA16F2FAA4F5 (const RuntimeMethod* method) 
 {
 	{
-		return ((int32_t)99);
+		return ((int32_t)255);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_Version_MinorLimit_get_mBBB4D88FC9188D061560D3BFB6C8A82EE1E4DA40 (const RuntimeMethod* method) 
 {
 	{
-		return ((int32_t)99);
+		return ((int32_t)255);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Api_Version_MajorLimit_get_m2F1A4476E19AFE5E341B31D5712EAE5C5164B5F9 (const RuntimeMethod* method) 
 {
 	{
-		return ((int32_t)99);
+		return ((int32_t)65535);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Api_Version_canMake_fromParts_m015BDCB7B7C3D9568B7279CCC82EAA6106DE897C (uint32_t ___0_major, uint32_t ___1_minor, uint32_t ___2_patch, const RuntimeMethod* method) 
@@ -32327,27 +32326,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputId__ctor_mEECBB94CFFF70C15F18A44225
 
 IL_0014:
 	{
-		String_t* L_2 = ___0_value;
-		NullCheck(L_2);
-		int32_t L_3;
-		L_3 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var);
-		int32_t L_4 = ((InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_StaticFields*)il2cpp_codegen_static_fields_for(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var))->___MaxValueLength;
-		if ((((int32_t)L_3) <= ((int32_t)L_4)))
+		int32_t L_2 = ((InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_StaticFields*)il2cpp_codegen_static_fields_for(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var))->___MaxValueLength;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
 		{
-			goto IL_0031;
+			goto IL_0037;
 		}
 	}
 	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_5 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2D87904D17A3590895547AB7E232342365C7956A)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral46F273EF641E07D271D91E0DC24A4392582671F8)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InputId__ctor_mEECBB94CFFF70C15F18A44225F3152619D107077_RuntimeMethod_var)));
+		String_t* L_3 = ___0_value;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var);
+		int32_t L_5 = ((InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_StaticFields*)il2cpp_codegen_static_fields_for(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var))->___MaxValueLength;
+		if ((((int32_t)L_4) <= ((int32_t)L_5)))
+		{
+			goto IL_0037;
+		}
 	}
-
-IL_0031:
 	{
 		String_t* L_6 = ___0_value;
-		InputId_set_Value_m77F9CA0262E3EDBE543F5786D46DD8C2157A141C_inline(__this, L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var);
+		int32_t L_7 = ((InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_StaticFields*)il2cpp_codegen_static_fields_for(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var))->___MaxValueLength;
+		NullCheck(L_6);
+		String_t* L_8;
+		L_8 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_6, 0, L_7, NULL);
+		___0_value = L_8;
+	}
+
+IL_0037:
+	{
+		String_t* L_9 = ___0_value;
+		InputId_set_Value_m77F9CA0262E3EDBE543F5786D46DD8C2157A141C_inline(__this, L_9, NULL);
 		return;
 	}
 }
@@ -32463,13 +32474,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputId__cctor_m622EE29997667F5A09446BB7
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Api_tD8F451BA4F1BFA5B4A029AF439EB199E5BAC9A9C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Api_tD8F451BA4F1BFA5B4A029AF439EB199E5BAC9A9C_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Api_InputId_MaxSize_get_m3EFC94A6522642D0E586FE9D60D22168C4994013(NULL);
-		((InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_StaticFields*)il2cpp_codegen_static_fields_for(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var))->___MaxValueLength = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_1;
+		L_1 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(((int32_t)64), ((int32_t)il2cpp_codegen_subtract(L_0, 1)), NULL);
+		((InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_StaticFields*)il2cpp_codegen_static_fields_for(InputId_t68619089A65FDF0CE5AEC84947880E0E5D79D18A_il2cpp_TypeInfo_var))->___MaxValueLength = L_1;
 		return;
 	}
 }
