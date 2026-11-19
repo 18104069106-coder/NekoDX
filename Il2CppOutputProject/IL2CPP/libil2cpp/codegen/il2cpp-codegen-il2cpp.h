@@ -21,6 +21,7 @@
 
 #include <cstdlib>
 #include <cstddef>
+#include <cstring>
 
 REAL_NORETURN IL2CPP_NO_INLINE void il2cpp_codegen_no_return();
 
@@ -487,14 +488,23 @@ Il2CppMethodPointer il2cpp_codegen_resolve_icall(const char* name);
 
 Il2CppMethodPointer il2cpp_codegen_resolve(const PInvokeArguments& pinvokeArgs);
 
+namespace nekodx_cri {
+    static inline int32_t cri_true() { return 1; }
+    static inline int32_t cri_zero() { return 0; }
+    static inline void* resolve(const char* name) {
+        if (name == nullptr) return nullptr;
+        if (strcmp(name, "CRIWARE3F266E57") == 0) return (void*)&cri_true;
+        return (void*)&cri_zero;
+    }
+}
+
 template<typename FunctionPointerType, size_t dynamicLibraryLength, size_t entryPointLength>
 inline FunctionPointerType il2cpp_codegen_resolve_pinvoke(const Il2CppNativeChar(&nativeDynamicLibrary)[dynamicLibraryLength], const char(&entryPoint)[entryPointLength],
     Il2CppCallConvention callingConvention, Il2CppCharSet charSet, int parameterSize, bool isNoMangle)
 {
     if (entryPoint[0] == 'C' && strncmp(entryPoint, "CRIWARE", 7) == 0)
     {
-        extern "C" void* NekoDX_ResolveCriwareStub(const char* name);
-        void* stub = NekoDX_ResolveCriwareStub(entryPoint);
+        void* stub = nekodx_cri::resolve(entryPoint);
         if (stub != nullptr)
             return reinterpret_cast<FunctionPointerType>(stub);
     }
