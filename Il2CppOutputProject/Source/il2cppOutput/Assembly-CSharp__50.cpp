@@ -22546,7 +22546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameMain_LateInitialize_mCB2F1D57CBCFB31
 		NullCheck(L_0);
 		OptionDataManager_CheckStreamingAssets_m04E9BA39333F9A269D63FB6B7379019E82142284(L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(SoundManager_t83998BC012FA091721B7979CE1B215AFB6498697_il2cpp_TypeInfo_var);
-		SoundManager_Initialize_mDA73C927C4A5714E9B204FC7D8A59B7F1B754B45(NULL);
+		try { SoundManager_Initialize_mDA73C927C4A5714E9B204FC7D8A59B7F1B754B45(NULL); } catch (...) { }
 		ProcessDataContainer_tAC336BB4B748CFB41B039540E1D653982D9E24C3* L_1 = __this->____container;
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_2 = ___0_gameMainObject;
 		NullCheck(L_1);

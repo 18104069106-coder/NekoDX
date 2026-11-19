@@ -491,6 +491,14 @@ template<typename FunctionPointerType, size_t dynamicLibraryLength, size_t entry
 inline FunctionPointerType il2cpp_codegen_resolve_pinvoke(const Il2CppNativeChar(&nativeDynamicLibrary)[dynamicLibraryLength], const char(&entryPoint)[entryPointLength],
     Il2CppCallConvention callingConvention, Il2CppCharSet charSet, int parameterSize, bool isNoMangle)
 {
+    if (entryPoint[0] == 'C' && strncmp(entryPoint, "CRIWARE", 7) == 0)
+    {
+        extern "C" void* NekoDX_ResolveCriwareStub(const char* name);
+        void* stub = NekoDX_ResolveCriwareStub(entryPoint);
+        if (stub != nullptr)
+            return reinterpret_cast<FunctionPointerType>(stub);
+    }
+
     const PInvokeArguments pinvokeArgs =
     {
         il2cpp::utils::StringView<Il2CppNativeChar>(nativeDynamicLibrary),
