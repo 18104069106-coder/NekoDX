@@ -22144,26 +22144,9 @@ IL_000f:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriAtomExAsrRack_CRIWARE04B3A4F8_m93636B72D9BB9029C75ACE65BB2BD5B0CEB12258 (Config_t1F157F739DA44B9C48FD8B7DFD39574871120D07* ___0_config, PlatformConfig_tA5A331086E37540B2BA2A310D994416B3DEFCADB* ___1_platformConfig, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriAtomExAsrRack_CRIWARE04B3A4F8_m93636B72D9BB9029C75ACE65BB2BD5B0CEB12258 (Config_t1F157F739DA44B9C48FD8B7DFD39574871120D07* ___0_config, PlatformConfig_tA5A331086E37540B2BA2A310D994416B3DEFCADB* ___1_platformConfig, const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (Config_t1F157F739DA44B9C48FD8B7DFD39574871120D07*, PlatformConfig_tA5A331086E37540B2BA2A310D994416B3DEFCADB*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(Config_t1F157F739DA44B9C48FD8B7DFD39574871120D07*) + sizeof(PlatformConfig_tA5A331086E37540B2BA2A310D994416B3DEFCADB*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE04B3A4F8", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWARE04B3A4F8)(___0_config, ___1_platformConfig);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_config, ___1_platformConfig);
-	#endif
-
-	return returnValue;
+	return 0;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExAsrRack_criAtomExAsrRack_Destroy_mD52F5B330167B405496264D877D83DE4681C69C6 (int32_t ___0_rackId, const RuntimeMethod* method) 
 {
@@ -30093,210 +30076,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_criAtomExPlayer_SetSampl
 	#endif
 
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CriAtomExPlayer_CRIWAREA85D9DF7_m05A35242E42B40685E390877275A6616B38FC377 (intptr_t ___0_player, int32_t ___1_capacity, int32_t ___2_max_path, bool ___3_stopOnEmpty, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CriAtomExPlayer_CRIWAREA85D9DF7_m05A35242E42B40685E390877275A6616B38FC377 (intptr_t ___0_player, int32_t ___1_capacity, int32_t ___2_max_path, bool ___3_stopOnEmpty, const RuntimeMethod* method)
 {
-	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(int32_t) + sizeof(int32_t) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREA85D9DF7", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWAREA85D9DF7)(___0_player, ___1_capacity, ___2_max_path, static_cast<int32_t>(___3_stopOnEmpty));
-	#else
-	intptr_t returnValue = il2cppPInvokeFunc(___0_player, ___1_capacity, ___2_max_path, static_cast<int32_t>(___3_stopOnEmpty));
-	#endif
-
-	return returnValue;
+	return 0;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_CRIWARE412ABF9D_m2EE0D574D8F6CB597BE991B54418917F54A13A72 (intptr_t ___0_pool, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_CRIWARE412ABF9D_m2EE0D574D8F6CB597BE991B54418917F54A13A72 (intptr_t ___0_pool, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE412ABF9D", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE412ABF9D)(___0_pool);
-	#else
-	il2cppPInvokeFunc(___0_pool);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriAtomExPlayer_CRIWARE567E547E_m7A8FA2A46FE12612E4BEEF1C0B065BBAB2CFFD90 (intptr_t ___0_pool, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CriAtomExPlayer_CRIWARE567E547E_m7A8FA2A46FE12612E4BEEF1C0B065BBAB2CFFD90 (intptr_t ___0_pool, const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE567E547E", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWARE567E547E)(___0_pool);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_pool);
-	#endif
-
-	return returnValue;
+	return 0;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREF1FC946E_mC259A288B37438CB48BA5DFB5E28F13F3FA94F46 (intptr_t ___0_pool, intptr_t ___1_binder, String_t* ___2_path, bool ___3_repeat, int32_t ___4_max_path, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREF1FC946E_mC259A288B37438CB48BA5DFB5E28F13F3FA94F46 (intptr_t ___0_pool, intptr_t ___1_binder, String_t* ___2_path, bool ___3_repeat, int32_t ___4_max_path, const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t, char*, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(char*) + 4 + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREF1FC946E", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	char* ____2_path_marshaled = NULL;
-	____2_path_marshaled = il2cpp_codegen_marshal_string(___2_path);
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWAREF1FC946E)(___0_pool, ___1_binder, ____2_path_marshaled, static_cast<int32_t>(___3_repeat), ___4_max_path);
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_pool, ___1_binder, ____2_path_marshaled, static_cast<int32_t>(___3_repeat), ___4_max_path);
-	#endif
-
-	il2cpp_codegen_marshal_free(____2_path_marshaled);
-	____2_path_marshaled = NULL;
-
-	return static_cast<bool>(returnValue);
+	return true;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREB50A1D83_mF70960296059D094E2EB7A7F070C41373D6F506D (intptr_t ___0_pool, intptr_t ___1_binder, int32_t ___2_id, bool ___3_repeat, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREB50A1D83_mF70960296059D094E2EB7A7F070C41373D6F506D (intptr_t ___0_pool, intptr_t ___1_binder, int32_t ___2_id, bool ___3_repeat, const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(int32_t) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREB50A1D83", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWAREB50A1D83)(___0_pool, ___1_binder, ___2_id, static_cast<int32_t>(___3_repeat));
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_pool, ___1_binder, ___2_id, static_cast<int32_t>(___3_repeat));
-	#endif
-
-	return static_cast<bool>(returnValue);
+	return true;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREA1C88AE8_mACB3BF362BC589AEEFE07B11C289514E72668374 (intptr_t ___0_pool, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_buffer, int32_t ___2_size, bool ___3_repeat, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREA1C88AE8_mACB3BF362BC589AEEFE07B11C289514E72668374 (intptr_t ___0_pool, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_buffer, int32_t ___2_size, bool ___3_repeat, const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint8_t*, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(int32_t) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREA1C88AE8", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	uint8_t* ____1_buffer_marshaled = NULL;
-	if (___1_buffer != NULL)
-	{
-		____1_buffer_marshaled = reinterpret_cast<uint8_t*>((___1_buffer)->GetAddressAtUnchecked(0));
-	}
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWAREA1C88AE8)(___0_pool, ____1_buffer_marshaled, ___2_size, static_cast<int32_t>(___3_repeat));
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_pool, ____1_buffer_marshaled, ___2_size, static_cast<int32_t>(___3_repeat));
-	#endif
-
-	return static_cast<bool>(returnValue);
+	return true;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREA1C88AE8_m942C62A9DFC7AAF9B14CBB2BC44148AA3C4313EA (intptr_t ___0_pool, intptr_t ___1_buffer, int32_t ___2_size, bool ___3_repeat, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWAREA1C88AE8_m942C62A9DFC7AAF9B14CBB2BC44148AA3C4313EA (intptr_t ___0_pool, intptr_t ___1_buffer, int32_t ___2_size, bool ___3_repeat, const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(int32_t) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREA1C88AE8", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWAREA1C88AE8)(___0_pool, ___1_buffer, ___2_size, static_cast<int32_t>(___3_repeat));
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_pool, ___1_buffer, ___2_size, static_cast<int32_t>(___3_repeat));
-	#endif
-
-	return static_cast<bool>(returnValue);
+	return true;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWARE4334E792_m6F14E141DDD8972007B3BFCED22C48D12088A582 (intptr_t ___0_pool, intptr_t ___1_acbhn, String_t* ___2_name, bool ___3_repeat, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomExPlayer_CRIWARE4334E792_m6F14E141DDD8972007B3BFCED22C48D12088A582 (intptr_t ___0_pool, intptr_t ___1_acbhn, String_t* ___2_name, bool ___3_repeat, const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, intptr_t, char*, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(intptr_t) + sizeof(char*) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE4334E792", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	char* ____2_name_marshaled = NULL;
-	____2_name_marshaled = il2cpp_codegen_marshal_string(___2_name);
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWARE4334E792)(___0_pool, ___1_acbhn, ____2_name_marshaled, static_cast<int32_t>(___3_repeat));
-	#else
-	int32_t returnValue = il2cppPInvokeFunc(___0_pool, ___1_acbhn, ____2_name_marshaled, static_cast<int32_t>(___3_repeat));
-	#endif
-
-	il2cpp_codegen_marshal_free(____2_name_marshaled);
-	____2_name_marshaled = NULL;
-
-	return static_cast<bool>(returnValue);
+	return true;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_CRIWARED8274724_mD374C8B71F24314FF6AFC3AF850152D3D134BF6D (intptr_t ___0_pool, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_CRIWARED8274724_mD374C8B71F24314FF6AFC3AF850152D3D134BF6D (intptr_t ___0_pool, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARED8274724", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARED8274724)(___0_pool);
-	#else
-	il2cppPInvokeFunc(___0_pool);
-	#endif
-
+	return;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_criAtomExPlayer_SetStartTime_mF2F002F15E0208161DB120AA99C4BD2D27E762BC (intptr_t ___0_player, int64_t ___1_start_time_ms, const RuntimeMethod* method) 
 {
@@ -31492,25 +31306,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_criAtomExPlayer_SetRando
 	#endif
 
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_CRIWARE25219A74_mDBC0E8754C3C683203F9A7421196200D9C9A273E (intptr_t ___0_player, bool ___1_sw, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_CRIWARE25219A74_mDBC0E8754C3C683203F9A7421196200D9C9A273E (intptr_t ___0_player, bool ___1_sw, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE25219A74", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE25219A74)(___0_player, static_cast<int32_t>(___1_sw));
-	#else
-	il2cppPInvokeFunc(___0_player, static_cast<int32_t>(___1_sw));
-	#endif
-
+	return;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExPlayer_criAtomExPlayer_SetAsrRackId_mD3FC9D3016D7A1FBE4F5B127917416CBA7D04578 (intptr_t ___0_player, int32_t ___1_asr_rack_id, const RuntimeMethod* method) 
 {
@@ -32724,25 +32522,9 @@ IL_000f:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExVoicePool_CRIWARE967C97CC_m3AF2885A691535F9B52B1017E9ED0C2A5ACADCBB (int32_t ___0_voice_pool_id, int32_t* ___1_num_used_voices, int32_t* ___2_num_pool_voices, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExVoicePool_CRIWARE967C97CC_m3AF2885A691535F9B52B1017E9ED0C2A5ACADCBB (int32_t ___0_voice_pool_id, int32_t* ___1_num_used_voices, int32_t* ___2_num_pool_voices, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t*, int32_t*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t*) + sizeof(int32_t*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE967C97CC", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE967C97CC)(___0_voice_pool_id, ___1_num_used_voices, ___2_num_pool_voices);
-	#else
-	il2cppPInvokeFunc(___0_voice_pool_id, ___1_num_used_voices, ___2_num_pool_voices);
-	#endif
-
+	return;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomExVoicePool_criAtomExVoicePool_GetNumUsedVoices_m4DC0C0AF20526B16A27E2EAB8AC4D0441500D8A2 (intptr_t ___0_pool, int32_t* ___1_num_used_voices, int32_t* ___2_num_pool_voices, const RuntimeMethod* method) 
 {
@@ -34028,18 +33810,7 @@ IL_006f:
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomPlugin_IsLibraryInitialized_m455CB26F92CABF9416A8E62C8C9D99A4B5092D07 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CriAtomPlugin_t404AF862506FD17AFE9A262233508CB66A3D70E6_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(CriAtomPlugin_t404AF862506FD17AFE9A262233508CB66A3D70E6_il2cpp_TypeInfo_var);
-		bool L_0;
-		L_0 = CriAtomPlugin_CRIWARE3F266E57_m2BA294CF992430A4B3E00FD0CAC4F9E552CF51C5(NULL);
-		return L_0;
-	}
+	return true;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_FinalizeLibrary_mF160B78954922CB84C669E6E8A3EA52A252EFFF6 (const RuntimeMethod* method) 
 {
@@ -34271,417 +34042,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CriAtomPlugin_CallbackFromNative_m73
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARECF844BF2_m72C61E416F6CCF75C75795BC080A754B8122C4E7 (int32_t ___0_max_virtual_voices, int32_t ___1_max_voice_limit_groups, int32_t ___2_max_categories, int32_t ___3_max_sequence_events_per_frame, int32_t ___4_max_beatsync_callbacks_per_frame, int32_t ___5_num_standard_memory_voices, int32_t ___6_num_standard_streaming_voices, int32_t ___7_num_hca_mx_memory_voices, int32_t ___8_num_hca_mx_streaming_voices, int32_t ___9_output_sampling_rate, int32_t ___10_num_asr_output_channels, bool ___11_uses_in_game_preview, float ___12_server_frequency, int32_t ___13_max_parameter_blocks, int32_t ___14_categories_per_playback, int32_t ___15_num_buses, bool ___16_use_ambisonics, intptr_t ___17_spatializer_core_interface, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARECF844BF2_m72C61E416F6CCF75C75795BC080A754B8122C4E7 (int32_t ___0_max_virtual_voices, int32_t ___1_max_voice_limit_groups, int32_t ___2_max_categories, int32_t ___3_max_sequence_events_per_frame, int32_t ___4_max_beatsync_callbacks_per_frame, int32_t ___5_num_standard_memory_voices, int32_t ___6_num_standard_streaming_voices, int32_t ___7_num_hca_mx_memory_voices, int32_t ___8_num_hca_mx_streaming_voices, int32_t ___9_output_sampling_rate, int32_t ___10_num_asr_output_channels, bool ___11_uses_in_game_preview, float ___12_server_frequency, int32_t ___13_max_parameter_blocks, int32_t ___14_categories_per_playback, int32_t ___15_num_buses, bool ___16_use_ambisonics, intptr_t ___17_spatializer_core_interface, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, float, int32_t, int32_t, int32_t, int32_t, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + 4 + sizeof(float) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + 4 + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARECF844BF2", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARECF844BF2)(___0_max_virtual_voices, ___1_max_voice_limit_groups, ___2_max_categories, ___3_max_sequence_events_per_frame, ___4_max_beatsync_callbacks_per_frame, ___5_num_standard_memory_voices, ___6_num_standard_streaming_voices, ___7_num_hca_mx_memory_voices, ___8_num_hca_mx_streaming_voices, ___9_output_sampling_rate, ___10_num_asr_output_channels, static_cast<int32_t>(___11_uses_in_game_preview), ___12_server_frequency, ___13_max_parameter_blocks, ___14_categories_per_playback, ___15_num_buses, static_cast<int32_t>(___16_use_ambisonics), ___17_spatializer_core_interface);
-	#else
-	il2cppPInvokeFunc(___0_max_virtual_voices, ___1_max_voice_limit_groups, ___2_max_categories, ___3_max_sequence_events_per_frame, ___4_max_beatsync_callbacks_per_frame, ___5_num_standard_memory_voices, ___6_num_standard_streaming_voices, ___7_num_hca_mx_memory_voices, ___8_num_hca_mx_streaming_voices, ___9_output_sampling_rate, ___10_num_asr_output_channels, static_cast<int32_t>(___11_uses_in_game_preview), ___12_server_frequency, ___13_max_parameter_blocks, ___14_categories_per_playback, ___15_num_buses, static_cast<int32_t>(___16_use_ambisonics), ___17_spatializer_core_interface);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREA488071D_m39C9E7A1885740E37CBD7FE6213E57B915459216 (int64_t ___0_buffering_time_pc, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREA488071D_m39C9E7A1885740E37CBD7FE6213E57B915459216 (int64_t ___0_buffering_time_pc, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int64_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int64_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREA488071D", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWAREA488071D)(___0_buffering_time_pc);
-	#else
-	il2cppPInvokeFunc(___0_buffering_time_pc);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED5F9F6BA_m9D6A0EE35960C37426BAED4B7CB5B67E9C3BF9B8 (int32_t ___0_output, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED5F9F6BA_m9D6A0EE35960C37426BAED4B7CB5B67E9C3BF9B8 (int32_t ___0_output, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARED5F9F6BA", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARED5F9F6BA)(___0_output);
-	#else
-	il2cppPInvokeFunc(___0_output);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED811A639_m49F0136775FC519E9A95792170EF5EF3F227B2D9 (uint32_t ___0_buffering_time_ios, bool ___1_override_ipod_music_ios, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED811A639_m49F0136775FC519E9A95792170EF5EF3F227B2D9 (uint32_t ___0_buffering_time_ios, bool ___1_override_ipod_music_ios, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (uint32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(uint32_t) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARED811A639", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARED811A639)(___0_buffering_time_ios, static_cast<int32_t>(___1_override_ipod_music_ios));
-	#else
-	il2cppPInvokeFunc(___0_buffering_time_ios, static_cast<int32_t>(___1_override_ipod_music_ios));
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREA5BB5FA6_m39C2B7CBE32B754100C85AB275A9F4A0B46188A0 (int32_t ___0_num_low_delay_memory_voices, int32_t ___1_num_low_delay_streaming_voices, int32_t ___2_sound_buffering_time, int32_t ___3_sound_start_buffering_time, bool ___4_apply_hw_property, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREA5BB5FA6_m39C2B7CBE32B754100C85AB275A9F4A0B46188A0 (int32_t ___0_num_low_delay_memory_voices, int32_t ___1_num_low_delay_streaming_voices, int32_t ___2_sound_buffering_time, int32_t ___3_sound_start_buffering_time, bool ___4_apply_hw_property, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + sizeof(int32_t) + 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREA5BB5FA6", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWAREA5BB5FA6)(___0_num_low_delay_memory_voices, ___1_num_low_delay_streaming_voices, ___2_sound_buffering_time, ___3_sound_start_buffering_time, static_cast<int32_t>(___4_apply_hw_property));
-	#else
-	il2cppPInvokeFunc(___0_num_low_delay_memory_voices, ___1_num_low_delay_streaming_voices, ___2_sound_buffering_time, ___3_sound_start_buffering_time, static_cast<int32_t>(___4_apply_hw_property));
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREA4B00AC3_m086CC94F5394F3BFF6DA70A1021D042721967193 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREA4B00AC3_m086CC94F5394F3BFF6DA70A1021D042721967193 (const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREA4B00AC3", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWAREA4B00AC3)();
-	#else
-	il2cppPInvokeFunc();
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomPlugin_CRIWARE3F266E57_m2BA294CF992430A4B3E00FD0CAC4F9E552CF51C5 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CriAtomPlugin_CRIWARE3F266E57_m2BA294CF992430A4B3E00FD0CAC4F9E552CF51C5 (const RuntimeMethod* method)
 {
-	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE3F266E57", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWARE3F266E57)();
-	#else
-	int32_t returnValue = il2cppPInvokeFunc();
-	#endif
-
-	return static_cast<bool>(returnValue);
+	return true;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED210699A_m71D00E5CE665ECF1468657F6AE5155C8BBF392C1 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED210699A_m71D00E5CE665ECF1468657F6AE5155C8BBF392C1 (const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARED210699A", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARED210699A)();
-	#else
-	il2cppPInvokeFunc();
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREBEE6E504_m71983FED73EBA866FA5605D9CAA19DA39FF63C9D (bool ___0_pause, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREBEE6E504_m71983FED73EBA866FA5605D9CAA19DA39FF63C9D (bool ___0_pause, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 4;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREBEE6E504", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWAREBEE6E504)(static_cast<int32_t>(___0_pause));
-	#else
-	il2cppPInvokeFunc(static_cast<int32_t>(___0_pause));
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CriAtomPlugin_CRIWARE9A240609_mBCE34C8A004694D25364C4227BE75D2143877150 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CriAtomPlugin_CRIWARE9A240609_mBCE34C8A004694D25364C4227BE75D2143877150 (const RuntimeMethod* method)
 {
-	typedef uint32_t (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE9A240609", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	uint32_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWARE9A240609)();
-	#else
-	uint32_t returnValue = il2cppPInvokeFunc();
-	#endif
-
-	return returnValue;
+	return 0;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREC7716020_mE218F640976E2720179CB2EA944656F4709320BA (int32_t ___0_code, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREC7716020_mE218F640976E2720179CB2EA944656F4709320BA (int32_t ___0_code, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREC7716020", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWAREC7716020)(___0_code);
-	#else
-	il2cppPInvokeFunc(___0_code);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREB7275AD5_m1E6448DC5E90D79734441CE14C088BF5CBBD8C3F (intptr_t ___0_cbfunc, String_t* ___1_separator_string, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREB7275AD5_m1E6448DC5E90D79734441CE14C088BF5CBBD8C3F (intptr_t ___0_cbfunc, String_t* ___1_separator_string, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(char*);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREB7275AD5", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	char* ____1_separator_string_marshaled = NULL;
-	____1_separator_string_marshaled = il2cpp_codegen_marshal_string(___1_separator_string);
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWAREB7275AD5)(___0_cbfunc, ____1_separator_string_marshaled);
-	#else
-	il2cppPInvokeFunc(___0_cbfunc, ____1_separator_string_marshaled);
-	#endif
-
-	il2cpp_codegen_marshal_free(____1_separator_string_marshaled);
-	____1_separator_string_marshaled = NULL;
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE6ED0E9C8_m63535E3605FCF430E9E94B6E3419F65269788902 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE6ED0E9C8_m63535E3605FCF430E9E94B6E3419F65269788902 (const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE6ED0E9C8", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE6ED0E9C8)();
-	#else
-	il2cppPInvokeFunc();
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE488451A3_mDDB09633A89FCD79995E3F280C669E0672228FEF (intptr_t ___0_cbfunc, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE488451A3_mDDB09633A89FCD79995E3F280C669E0672228FEF (intptr_t ___0_cbfunc, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE488451A3", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE488451A3)(___0_cbfunc);
-	#else
-	il2cppPInvokeFunc(___0_cbfunc);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED81F3597_mA4B79C7E82A9152780D5BA8F2FC1717BEB78320A (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARED81F3597_mA4B79C7E82A9152780D5BA8F2FC1717BEB78320A (const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARED81F3597", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARED81F3597)();
-	#else
-	il2cppPInvokeFunc();
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE88FC8CD0_mAD099551C9C7E700F137F15E5D95E0B7FE847E12 (int32_t ___0_sampling_rate_for_memory, int32_t ___1_sampling_rate_for_streaming, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE88FC8CD0_mAD099551C9C7E700F137F15E5D95E0B7FE847E12 (int32_t ___0_sampling_rate_for_memory, int32_t ___1_sampling_rate_for_streaming, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t) + sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE88FC8CD0", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE88FC8CD0)(___0_sampling_rate_for_memory, ___1_sampling_rate_for_streaming);
-	#else
-	il2cppPInvokeFunc(___0_sampling_rate_for_memory, ___1_sampling_rate_for_streaming);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE4E36730F_m27755B873FD8A7540E366BD9F2D1BF46E170C300 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE4E36730F_m27755B873FD8A7540E366BD9F2D1BF46E170C300 (const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE4E36730F", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE4E36730F)();
-	#else
-	il2cppPInvokeFunc();
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREF498208E_mFDB7344C9EA7A30CFD90D5C93550295258DDFA37 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWAREF498208E_mFDB7344C9EA7A30CFD90D5C93550295258DDFA37 (const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = 0;
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWAREF498208E", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWAREF498208E)();
-	#else
-	il2cppPInvokeFunc();
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE86280B26_m71BCE3050D421A48FDFCD1BE8D7D9FAEC359024C (intptr_t ___0_acb_hn, CallbackFromNativeDelegate_t593339E5E792B071329B7C4BED540EC4416F90C4* ___1_func, intptr_t ___2_obj, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin_CRIWARE86280B26_m71BCE3050D421A48FDFCD1BE8D7D9FAEC359024C (intptr_t ___0_acb_hn, CallbackFromNativeDelegate_t593339E5E792B071329B7C4BED540EC4416F90C4* ___1_func, intptr_t ___2_obj, const RuntimeMethod* method)
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, Il2CppMethodPointer, intptr_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(intptr_t) + sizeof(void*) + sizeof(intptr_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARE86280B26", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	Il2CppMethodPointer ____1_func_marshaled = NULL;
-	____1_func_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_func));
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(CRIWARE86280B26)(___0_acb_hn, ____1_func_marshaled, ___2_obj);
-	#else
-	il2cppPInvokeFunc(___0_acb_hn, ____1_func_marshaled, ___2_obj);
-	#endif
-
+	return;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CriAtomPlugin_CRIWARECA140BA3_m83519FC08F06D59BE85037FB3164C9EDC643D3D0 (int32_t ___0_id, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t CriAtomPlugin_CRIWARECA140BA3_m83519FC08F06D59BE85037FB3164C9EDC643D3D0 (int32_t ___0_id, const RuntimeMethod* method)
 {
-	typedef uint16_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
-	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	static PInvokeFunc il2cppPInvokeFunc;
-	if (il2cppPInvokeFunc == NULL)
-	{
-		int parameterSize = sizeof(int32_t);
-		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("cri_ware_unity"), "CRIWARECA140BA3", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
-		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
-	}
-	#endif
-
-	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_cri_ware_unity_INTERNAL
-	uint16_t returnValue = reinterpret_cast<PInvokeFunc>(CRIWARECA140BA3)(___0_id);
-	#else
-	uint16_t returnValue = il2cppPInvokeFunc(___0_id);
-	#endif
-
-	return returnValue;
+	return 0;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CriAtomPlugin__cctor_m97A1F7FA8CD9F321C6DD44926EE29BF6F12F4358 (const RuntimeMethod* method) 
 {
