@@ -23652,6 +23652,11 @@ IL_0185:
 
 IL_01b4:
 	{
+		il2cpp_codegen_runtime_class_init_inline(NekoDXBootstrapper_t94206D44F97ABBE140D79A96B9497C93B246D0E5_il2cpp_TypeInfo_var);
+		if (___0_e != NULL) {
+			String_t* errStr = VirtualFuncInvoker0< String_t* >::Invoke(3, ___0_e);
+			NekoDXBootstrapper_ReportFatalError_m6A7E67064F8F8B4E36252C5D3BE30681459984B6(errStr, NULL);
+		}
 		return;
 	}
 }
@@ -27363,116 +27368,20 @@ IL_0102:
 		NullCheck(L_23);
 		GameMain_Update_mEFD21FD748AA5228E5D0C2769B5DE1AB8593C943(L_23, NULL);
 		bool L_24 = ((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsException;
-		if (!L_24)
+		if (L_24)
 		{
-			goto IL_0128;
+			((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsException = (bool)0;
 		}
-	}
-	{
-		il2cpp_codegen_memory_barrier();
-		__this->___isQuit = (bool)1;
-		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
-		return;
+		goto IL_0128;
 	}
 
 IL_0128:
 	{
-		bool L_25;
-		L_25 = DebugInput_GetKeyDown_m755428BE75B72F6BB73037FC8BFF448BED4F17B0(((int32_t)27), NULL);
-		if (L_25)
-		{
-			goto IL_0138;
-		}
-	}
-	{
 		il2cpp_codegen_runtime_class_init_inline(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var);
-		bool L_26 = ((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsGotoSystemTest;
-		if (!L_26)
-		{
-			goto IL_014d;
-		}
-	}
-
-IL_0138:
-	{
-		il2cpp_codegen_memory_barrier();
-		__this->___isQuit = (bool)1;
-		il2cpp_codegen_runtime_class_init_inline(Core_t8F2EBAA2E15D1024C0FF147265CABC7D8BBF341F_il2cpp_TypeInfo_var);
-		Core_Kill_m3F15F47F344F7D2FD91D15FD9E2D5056E258364C(3, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsGotoSystemTest = (bool)0;
+		((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsGotoReboot = (bool)0;
+		((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsGotoSystemError = (bool)0;
 		return;
-	}
-
-IL_014d:
-	{
-		il2cpp_codegen_runtime_class_init_inline(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var);
-		bool L_27 = ((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsGotoReboot;
-		if (!L_27)
-		{
-			goto IL_0187;
-		}
-	}
-	{
-		il2cpp_codegen_memory_barrier();
-		__this->___isQuit = (bool)1;
-		il2cpp_codegen_runtime_class_init_inline(Singleton_1_t507B2B1E0DC6F06502BC77EBC2A7E9B5736A7771_il2cpp_TypeInfo_var);
-		OperationManager_t151B3D35A1F525D34F6F107526774E8191A6917C* L_28;
-		L_28 = Singleton_1_get_Instance_mF1D35E4E64E115A7E0871E92F91E413238ACB8B6_inline(Singleton_1_get_Instance_mF1D35E4E64E115A7E0871E92F91E413238ACB8B6_RuntimeMethod_var);
-		NullCheck(L_28);
-		bool L_29;
-		L_29 = OperationManager_IsAutoRebootNeeded_mF5FE49C78EA5B018B5D425A89EBE2AF14F0FC423(L_28, NULL);
-		if (L_29)
-		{
-			goto IL_0175;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(Singleton_1_t507B2B1E0DC6F06502BC77EBC2A7E9B5736A7771_il2cpp_TypeInfo_var);
-		OperationManager_t151B3D35A1F525D34F6F107526774E8191A6917C* L_30;
-		L_30 = Singleton_1_get_Instance_mF1D35E4E64E115A7E0871E92F91E413238ACB8B6_inline(Singleton_1_get_Instance_mF1D35E4E64E115A7E0871E92F91E413238ACB8B6_RuntimeMethod_var);
-		NullCheck(L_30);
-		bool L_31;
-		L_31 = OperationManager_IsSegaBootNeeded_mBB650F6D26746011F5D52537D1B57D294364068E(L_30, NULL);
-		if (!L_31)
-		{
-			goto IL_017b;
-		}
-	}
-
-IL_0175:
-	{
-		il2cpp_codegen_runtime_class_init_inline(Core_t8F2EBAA2E15D1024C0FF147265CABC7D8BBF341F_il2cpp_TypeInfo_var);
-		Core_Reboot_mEF0755B9ECFA2FC4D6FE7850570ADEEAAD70B48B(NULL);
-		return;
-	}
-
-IL_017b:
-	{
-		il2cpp_codegen_runtime_class_init_inline(Core_t8F2EBAA2E15D1024C0FF147265CABC7D8BBF341F_il2cpp_TypeInfo_var);
-		Core_Kill_m3F15F47F344F7D2FD91D15FD9E2D5056E258364C(1, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
-		return;
-	}
-
-IL_0187:
-	{
-		il2cpp_codegen_runtime_class_init_inline(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var);
-		bool L_32 = ((GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tF6E9AC3DB1687AB43D67FA7D22959EBDD2F9EBBB_il2cpp_TypeInfo_var))->___IsGotoSystemError;
-		if (!L_32)
-		{
-			goto IL_01a2;
-		}
-	}
-	{
-		il2cpp_codegen_memory_barrier();
-		__this->___isQuit = (bool)1;
-		il2cpp_codegen_runtime_class_init_inline(Core_t8F2EBAA2E15D1024C0FF147265CABC7D8BBF341F_il2cpp_TypeInfo_var);
-		Core_Kill_m3F15F47F344F7D2FD91D15FD9E2D5056E258364C(2, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
 	}
 
 IL_01a2:

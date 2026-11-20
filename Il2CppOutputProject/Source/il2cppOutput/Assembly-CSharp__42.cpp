@@ -8575,14 +8575,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputManager_IsMouseTouchButtonInside_m0
 		il2cpp_codegen_runtime_class_init_inline(InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_il2cpp_TypeInfo_var);
 		MouseTouchPanelU5BU5D_t39898680ACA7DCBC6C1F34D80933FF89DAE234D9* L_1 = ((InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_StaticFields*)il2cpp_codegen_static_fields_for(InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_il2cpp_TypeInfo_var))->___MouseTouchPanel;
 		int32_t L_2 = ___0_target;
-		NullCheck(L_1);
+		if (L_1 == NULL) return false;
 		int32_t L_3 = L_2;
+		if (L_3 < 0 || L_3 >= (int32_t)(((RuntimeArray*)L_1)->max_length)) return false;
 		MouseTouchPanel_t830A32873A241B8479DE10628257D8BEE7A6BE42* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		if (L_4 == NULL) return false;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_screenPosition;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_5, NULL);
 		int32_t* L_7 = ___2_touch;
-		NullCheck(L_4);
 		bool L_8;
 		L_8 = MouseTouchPanel_IsInside_m150C9EEA7B9A59DB45D54302A7811BBA80D37FDC(L_4, L_6, L_7, NULL);
 		return L_8;
@@ -10910,13 +10911,15 @@ IL_0007:
 		int64_t L_6 = *((int64_t*)L_5);
 		MouseTouchPanelU5BU5D_t39898680ACA7DCBC6C1F34D80933FF89DAE234D9* L_7 = ((InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_StaticFields*)il2cpp_codegen_static_fields_for(InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_il2cpp_TypeInfo_var))->___MouseTouchPanel;
 		int32_t L_8 = V_0;
-		NullCheck(L_7);
-		int32_t L_9 = L_8;
-		MouseTouchPanel_t830A32873A241B8479DE10628257D8BEE7A6BE42* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
-		NullCheck(L_10);
-		uint64_t L_11;
-		L_11 = MouseTouchPanel_get_GetPushFlag_m566C4C7DDBD70D3D20C1840563C2BBA39454ACC4(L_10, NULL);
-		*((int64_t*)L_5) = (int64_t)((int64_t)(L_6|(int64_t)L_11));
+		if (L_7 != NULL && L_8 >= 0 && L_8 < (int32_t)(((RuntimeArray*)L_7)->max_length))
+		{
+			MouseTouchPanel_t830A32873A241B8479DE10628257D8BEE7A6BE42* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+			if (L_10 != NULL)
+			{
+				uint64_t L_11 = MouseTouchPanel_get_GetPushFlag_m566C4C7DDBD70D3D20C1840563C2BBA39454ACC4(L_10, NULL);
+				*((int64_t*)L_5) = (int64_t)((int64_t)(L_6|(int64_t)L_11));
+			}
+		}
 		GameInputLog_tE32A71CC8C1DC2845D999E4D8802DF630D4D896A* L_12 = ((InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_StaticFields*)il2cpp_codegen_static_fields_for(InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_il2cpp_TypeInfo_var))->___TpLog;
 		int32_t L_13 = V_0;
 		UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* L_14 = ((InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_StaticFields*)il2cpp_codegen_static_fields_for(InputManager_t3BC77B963FFE7E54DDE5B7AAB27B7D70CD249853_il2cpp_TypeInfo_var))->___TpNow;
